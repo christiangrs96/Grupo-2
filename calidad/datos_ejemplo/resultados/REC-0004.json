@@ -1,0 +1,75 @@
+{
+ "archivo": "REC-0004.eml",
+ "tipo": "reclamo",
+ "estado": "ok",
+ "campos": {
+  "dni": "99277206",
+  "nombre": "Elena Rojas Mesa",
+  "monto_reclamado": 3778.67,
+  "entidad": "Financiera Andina DEMO S.A.",
+  "telefono": "999000483",
+  "correo": "cliente4@correo.demo",
+  "producto": "tarjeta de crédito",
+  "fecha": "2026-13-40",
+  "motivo": "demora en entrega",
+  "ruc": "20992757737"
+ },
+ "fases": {
+  "1_ingesta": {
+   "dni": null,
+   "nombre": null,
+   "monto_reclamado": null,
+   "entidad": null,
+   "telefono": "999000483",
+   "correo": "cliente4@correo.demo",
+   "producto": null,
+   "fecha": null,
+   "motivo": null,
+   "ruc": null
+  },
+  "2_ocr": {
+   "dni": "99277206",
+   "nombre": null,
+   "monto_reclamado": 3778.67,
+   "entidad": null,
+   "telefono": "999000483",
+   "correo": "cliente4@correo.demo",
+   "producto": null,
+   "fecha": "2026-13-40",
+   "motivo": null,
+   "ruc": "20992757737"
+  },
+  "3_pln": {
+   "dni": "99277206",
+   "nombre": "Elena Rojas Mesa",
+   "monto_reclamado": 3778.67,
+   "entidad": "Financiera Andina DEMO S.A.",
+   "telefono": "999000483",
+   "correo": "cliente4@correo.demo",
+   "producto": "tarjeta de crédito",
+   "fecha": "2026-13-40",
+   "motivo": null,
+   "ruc": "20992757737"
+  },
+  "4_llm": {
+   "dni": "99277206",
+   "nombre": "Elena Rojas Mesa",
+   "monto_reclamado": 3778.67,
+   "entidad": "Financiera Andina DEMO S.A.",
+   "telefono": "999000483",
+   "correo": "cliente4@correo.demo",
+   "producto": "tarjeta de crédito",
+   "fecha": "2026-13-40",
+   "motivo": "demora en entrega",
+   "ruc": "20992757737"
+  }
+ },
+ "texto": "Asunto: Reclamo REC-0004\nSoy Elena Rojas Mesa, DNI 99277206. Reclamo a Financiera Andina DEMO S.A. (RUC 20992757737) por mi tarjeta de crédito: demora en entrega.\nCargo del 2 de mayo de 2026 por S/ 3,778.67.\nTeléfono 999000483 | cliente4@correo.demo",
+ "ocr": {
+  "texto": "Asunto: Reclamo REC-0004\nSoy Elena Rojas Mesa, DNI 99277206. Reclamo a Financiera Andina DEMO S.A. (RUC 20992757737) por mi tarjeta de crédito: demora en entrega.\nCargo del 2 de mayo de 2026 por S/ 3,778.67.\nTeléfono 999000483 | cliente4@correo.demo",
+  "confianza": 0.951,
+  "puntaje": 0.931,
+  "decision": "aceptar"
+ },
+ "revisar": []
+}

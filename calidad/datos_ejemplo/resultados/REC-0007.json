@@ -1,0 +1,77 @@
+{
+ "archivo": "REC-0007.eml",
+ "tipo": "reclamo",
+ "estado": "ok",
+ "campos": {
+  "dni": "99433977",
+  "nombre": "Rosa Quispe Lima",
+  "monto_reclamado": 3900.39,
+  "entidad": "Banco Cordillera DEMO S.A.",
+  "telefono": "999000167",
+  "correo": "cliente7@correo.demo",
+  "producto": "tarjeta de crédito",
+  "fecha": "2026-05-16",
+  "motivo": "cuenta cerrada",
+  "ruc": "20994794966"
+ },
+ "fases": {
+  "1_ingesta": {
+   "dni": null,
+   "nombre": null,
+   "monto_reclamado": null,
+   "entidad": null,
+   "telefono": "999000167",
+   "correo": "cliente7@correo.demo",
+   "producto": null,
+   "fecha": null,
+   "motivo": null,
+   "ruc": null
+  },
+  "2_ocr": {
+   "dni": "99433977",
+   "nombre": null,
+   "monto_reclamado": 3900.39,
+   "entidad": null,
+   "telefono": "999000167",
+   "correo": "cliente7@correo.demo",
+   "producto": null,
+   "fecha": "2026-05-16",
+   "motivo": null,
+   "ruc": "20994794966"
+  },
+  "3_pln": {
+   "dni": "99433977",
+   "nombre": "Rosa Quispe Lima",
+   "monto_reclamado": 3900.39,
+   "entidad": "Banco Cordillera DEMO S.A.",
+   "telefono": "999000167",
+   "correo": "cliente7@correo.demo",
+   "producto": "tarjeta de crédito",
+   "fecha": "2026-05-16",
+   "motivo": null,
+   "ruc": "20994794966"
+  },
+  "4_llm": {
+   "dni": "99433977",
+   "nombre": "Rosa Quispe Lima",
+   "monto_reclamado": 3900.39,
+   "entidad": "Banco Cordillera DEMO S.A.",
+   "telefono": "999000167",
+   "correo": "cliente7@correo.demo",
+   "producto": "tarjeta de crédito",
+   "fecha": "2026-05-16",
+   "motivo": "cuenta cerrada",
+   "ruc": "20994794966"
+  }
+ },
+ "texto": "Asunto: Reclomo REC-0007\nSoy Rosa Quispe Lima, DNI 99433977. Reclamo a Bonco Cordillera DEMO S.A. (RUC 20994794966) por mi torjeta dc crédito: cucnta ccrrado.\nCargo del 16 de moyo de 2026 por S/ 3,900.39.\nTeléfono 99900O167 | clicnte7@correo.derno",
+ "ocr": {
+  "texto": "Asunto: Reclomo REC-0007\nSoy Rosa Quispe Lima, DNI 99433977. Reclamo a Bonco Cordillera DEMO S.A. (RUC 20994794966) por mi torjeta dc crédito: cucnta ccrrado.\nCargo del 16 de moyo de 2026 por S/ 3,900.39.\nTeléfono 99900O167 | clicnte7@correo.derno",
+  "confianza": 0.346,
+  "puntaje": 0.326,
+  "decision": "revisar"
+ },
+ "revisar": [
+  "ruta del OCR"
+ ]
+}

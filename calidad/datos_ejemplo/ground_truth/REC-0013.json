@@ -1,0 +1,12 @@
+{
+ "dni": "99891941",
+ "nombre": "Rosa Quispe Lima",
+ "monto_reclamado": 2390.62,
+ "entidad": "Banco Cordillera DEMO S.A.",
+ "telefono": "999000478",
+ "correo": "cliente13@correo.demo",
+ "producto": "cuenta sueldo",
+ "fecha": "2026-02-03",
+ "motivo": "demora en entrega",
+ "ruc": "20994521552"
+}

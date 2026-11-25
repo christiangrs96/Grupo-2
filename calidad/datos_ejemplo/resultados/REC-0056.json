@@ -1,0 +1,75 @@
+{
+ "archivo": "REC-0056.eml",
+ "tipo": "reclamo",
+ "estado": "ok",
+ "campos": {
+  "dni": "99594630",
+  "nombre": "Rosa Quispe Lima",
+  "monto_reclamado": 3943.12,
+  "entidad": "Financiera Andina DEMO S.A.",
+  "telefono": "999000605",
+  "correo": "cliente56@correo.demo",
+  "producto": "cuenta sueldo",
+  "fecha": "2026-05-05",
+  "motivo": "demora en entrega",
+  "ruc": "20991770471"
+ },
+ "fases": {
+  "1_ingesta": {
+   "dni": null,
+   "nombre": null,
+   "monto_reclamado": null,
+   "entidad": null,
+   "telefono": "999000605",
+   "correo": "cliente56@correo.demo",
+   "producto": null,
+   "fecha": null,
+   "motivo": null,
+   "ruc": null
+  },
+  "2_ocr": {
+   "dni": "99594630",
+   "nombre": null,
+   "monto_reclamado": 3943.12,
+   "entidad": null,
+   "telefono": "999000605",
+   "correo": "cliente56@correo.demo",
+   "producto": null,
+   "fecha": "2026-05-05",
+   "motivo": null,
+   "ruc": "20991770471"
+  },
+  "3_pln": {
+   "dni": "99594630",
+   "nombre": "Rosa Quispe Lima",
+   "monto_reclamado": 3943.12,
+   "entidad": "Financiera Andina DEMO S.A.",
+   "telefono": "999000605",
+   "correo": "cliente56@correo.demo",
+   "producto": "cuenta sueldo",
+   "fecha": "2026-05-05",
+   "motivo": null,
+   "ruc": "20991770471"
+  },
+  "4_llm": {
+   "dni": "99594630",
+   "nombre": "Rosa Quispe Lima",
+   "monto_reclamado": 3943.12,
+   "entidad": "Financiera Andina DEMO S.A.",
+   "telefono": "999000605",
+   "correo": "cliente56@correo.demo",
+   "producto": "cuenta sueldo",
+   "fecha": "2026-05-05",
+   "motivo": "demora en entrega",
+   "ruc": "20991770471"
+  }
+ },
+ "texto": "Asunto: Reclamo REC-0056\nSoy Rosa Quispe Lima, DNI 99594630. Reclamo a Financiero Andina DEMO S.A. (RUC 20991770471) por mi cuenta sueldo: demora en entrego.\nCargo del 5 de mayo de 2026 por S/ 3,943.12.\nTeléfono 999000605 | cliente56@correo.demo",
+ "ocr": {
+  "texto": "Asunto: Reclamo REC-0056\nSoy Rosa Quispe Lima, DNI 99594630. Reclamo a Financiero Andina DEMO S.A. (RUC 20991770471) por mi cuenta sueldo: demora en entrego.\nCargo del 5 de mayo de 2026 por S/ 3,943.12.\nTeléfono 999000605 | cliente56@correo.demo",
+  "confianza": 0.968,
+  "puntaje": 0.948,
+  "decision": "aceptar"
+ },
+ "revisar": []
+}

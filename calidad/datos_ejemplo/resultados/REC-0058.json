@@ -1,0 +1,75 @@
+{
+ "archivo": "REC-0058.eml",
+ "tipo": "reclamo",
+ "estado": "ok",
+ "campos": {
+  "dni": "99667540",
+  "nombre": "Carlos Díaz León",
+  "monto_reclamado": 2696.85,
+  "entidad": "Caja Rural Sol DEMO S.A.",
+  "telefono": "999000635",
+  "correo": "cliente58@correo.demo",
+  "producto": "cuenta sueldo",
+  "fecha": "2026-04-01",
+  "motivo": "cobro indebido",
+  "ruc": "20996820735"
+ },
+ "fases": {
+  "1_ingesta": {
+   "dni": null,
+   "nombre": null,
+   "monto_reclamado": null,
+   "entidad": null,
+   "telefono": "999000635",
+   "correo": "cliente58@correo.demo",
+   "producto": null,
+   "fecha": null,
+   "motivo": null,
+   "ruc": null
+  },
+  "2_ocr": {
+   "dni": "99667540",
+   "nombre": null,
+   "monto_reclamado": 2696.85,
+   "entidad": null,
+   "telefono": "999000635",
+   "correo": "cliente58@correo.demo",
+   "producto": null,
+   "fecha": "2026-04-01",
+   "motivo": null,
+   "ruc": "20996820735"
+  },
+  "3_pln": {
+   "dni": "99667540",
+   "nombre": "Carlos Díaz León",
+   "monto_reclamado": 2696.85,
+   "entidad": "Caja Rural Sol DEMO S.A.",
+   "telefono": "999000635",
+   "correo": "cliente58@correo.demo",
+   "producto": "cuenta sueldo",
+   "fecha": "2026-04-01",
+   "motivo": null,
+   "ruc": "20996820735"
+  },
+  "4_llm": {
+   "dni": "99667540",
+   "nombre": "Carlos Díaz León",
+   "monto_reclamado": 2696.85,
+   "entidad": "Caja Rural Sol DEMO S.A.",
+   "telefono": "999000635",
+   "correo": "cliente58@correo.demo",
+   "producto": "cuenta sueldo",
+   "fecha": "2026-04-01",
+   "motivo": "cobro indebido",
+   "ruc": "20996820735"
+  }
+ },
+ "texto": "Asunto: Reclamo REC-0058\nSoy Carlos Díoz León, DNI 99667540. Reclamo a Caja Rural Sol DEMO S.A. (RUC 20996820735) por mi cuenta sueldo: cobro indebido.\nCargo del 1 de abril de 2026 por S/ 2,696.85.\nTeléfono 999000635 | cliente58@correo.demo",
+ "ocr": {
+  "texto": "Asunto: Reclamo REC-0058\nSoy Carlos Díoz León, DNI 99667540. Reclamo a Caja Rural Sol DEMO S.A. (RUC 20996820735) por mi cuenta sueldo: cobro indebido.\nCargo del 1 de abril de 2026 por S/ 2,696.85.\nTeléfono 999000635 | cliente58@correo.demo",
+  "confianza": 0.945,
+  "puntaje": 0.925,
+  "decision": "aceptar"
+ },
+ "revisar": []
+}

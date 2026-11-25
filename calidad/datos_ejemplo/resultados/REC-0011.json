@@ -1,0 +1,75 @@
+{
+ "archivo": "REC-0011.eml",
+ "tipo": "reclamo",
+ "estado": "ok",
+ "campos": {
+  "dni": "99298040",
+  "nombre": "Carlos Díaz León",
+  "monto_reclamado": 4370.3,
+  "entidad": "Financiera Andina DEMO S.A.",
+  "telefono": "999000927",
+  "correo": "cliente11@correo.demo",
+  "producto": "tarjeta de crédito",
+  "fecha": "2026-05-25",
+  "motivo": "cobro indebido",
+  "ruc": "20991954873"
+ },
+ "fases": {
+  "1_ingesta": {
+   "dni": null,
+   "nombre": null,
+   "monto_reclamado": null,
+   "entidad": null,
+   "telefono": "999000927",
+   "correo": "cliente11@correo.demo",
+   "producto": null,
+   "fecha": null,
+   "motivo": null,
+   "ruc": null
+  },
+  "2_ocr": {
+   "dni": "99298040",
+   "nombre": null,
+   "monto_reclamado": 4370.3,
+   "entidad": null,
+   "telefono": "999000927",
+   "correo": "cliente11@correo.demo",
+   "producto": null,
+   "fecha": "2026-05-25",
+   "motivo": null,
+   "ruc": "20991954873"
+  },
+  "3_pln": {
+   "dni": "99298040",
+   "nombre": "Carlos Díaz León",
+   "monto_reclamado": 4370.3,
+   "entidad": "Financiera Andina DEMO S.A.",
+   "telefono": "999000927",
+   "correo": "cliente11@correo.demo",
+   "producto": "tarjeta de crédito",
+   "fecha": "2026-05-25",
+   "motivo": null,
+   "ruc": "20991954873"
+  },
+  "4_llm": {
+   "dni": "99298040",
+   "nombre": "Carlos Díaz León",
+   "monto_reclamado": 4370.3,
+   "entidad": "Financiera Andina DEMO S.A.",
+   "telefono": "999000927",
+   "correo": "cliente11@correo.demo",
+   "producto": "tarjeta de crédito",
+   "fecha": "2026-05-25",
+   "motivo": "cobro indebido",
+   "ruc": "20991954873"
+  }
+ },
+ "texto": "Asunto: Reclamo REC-0011\nSoy Carlos Díaz León, DNI 99298040. Reclamo a Financiera Andina DEMO S.A. (RUC 20991954873) por mi tarjeta de crédito: cobro indebido.\nCargo del 25 de mayo de 2026 por S/ 4,370.30.\nTeléfono 999000927 | cliente11@correo.demo",
+ "ocr": {
+  "texto": "Asunto: Reclamo REC-0011\nSoy Carlos Díaz León, DNI 99298040. Reclamo a Financiera Andina DEMO S.A. (RUC 20991954873) por mi tarjeta de crédito: cobro indebido.\nCargo del 25 de mayo de 2026 por S/ 4,370.30.\nTeléfono 999000927 | cliente11@correo.demo",
+  "confianza": 0.976,
+  "puntaje": 0.956,
+  "decision": "aceptar"
+ },
+ "revisar": []
+}

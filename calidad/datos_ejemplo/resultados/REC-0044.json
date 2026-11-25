@@ -1,0 +1,75 @@
+{
+ "archivo": "REC-0044.eml",
+ "tipo": "reclamo",
+ "estado": "ok",
+ "campos": {
+  "dni": "99571943",
+  "nombre": "Rosa Quispe Lima",
+  "monto_reclamado": 2577.1,
+  "entidad": "Caja Rural Sol DEMO S.A.",
+  "telefono": "999000241",
+  "correo": "cliente44@correo.demo",
+  "producto": "préstamo personal",
+  "fecha": "2026-06-14",
+  "motivo": "cobro indebido",
+  "ruc": "20996704018"
+ },
+ "fases": {
+  "1_ingesta": {
+   "dni": null,
+   "nombre": null,
+   "monto_reclamado": null,
+   "entidad": null,
+   "telefono": "999000241",
+   "correo": "cliente44@correo.demo",
+   "producto": null,
+   "fecha": null,
+   "motivo": null,
+   "ruc": null
+  },
+  "2_ocr": {
+   "dni": "99571943",
+   "nombre": null,
+   "monto_reclamado": 2577.1,
+   "entidad": null,
+   "telefono": "999000241",
+   "correo": "cliente44@correo.demo",
+   "producto": null,
+   "fecha": "2026-06-14",
+   "motivo": null,
+   "ruc": "20996704018"
+  },
+  "3_pln": {
+   "dni": "99571943",
+   "nombre": "Rosa Quispe Lima",
+   "monto_reclamado": 2577.1,
+   "entidad": "Caja Rural Sol DEMO S.A.",
+   "telefono": "999000241",
+   "correo": "cliente44@correo.demo",
+   "producto": "préstamo personal",
+   "fecha": "2026-06-14",
+   "motivo": null,
+   "ruc": "20996704018"
+  },
+  "4_llm": {
+   "dni": "99571943",
+   "nombre": "Rosa Quispe Lima",
+   "monto_reclamado": 2577.1,
+   "entidad": "Caja Rural Sol DEMO S.A.",
+   "telefono": "999000241",
+   "correo": "cliente44@correo.demo",
+   "producto": "préstamo personal",
+   "fecha": "2026-06-14",
+   "motivo": "cobro indebido",
+   "ruc": "20996704018"
+  }
+ },
+ "texto": "Asunto: Reclamo REC-0044\nSoy Rosa Quispe Lima, DNI 99571943. Reclamo a Caja Rural Sol DEMO S.A. (RUC 20996704018) por mi préstamo personal: cobro indebido.\nCargo del 14 de junio de 2026 por S/ 2,577.10.\nTeléfono 999000241 | cliente44@correo.demo",
+ "ocr": {
+  "texto": "Asunto: Reclamo REC-0044\nSoy Rosa Quispe Lima, DNI 99571943. Reclamo a Caja Rural Sol DEMO S.A. (RUC 20996704018) por mi préstamo personal: cobro indebido.\nCargo del 14 de junio de 2026 por S/ 2,577.10.\nTeléfono 999000241 | cliente44@correo.demo",
+  "confianza": 0.919,
+  "puntaje": 0.899,
+  "decision": "aceptar"
+ },
+ "revisar": []
+}

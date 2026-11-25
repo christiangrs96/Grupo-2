@@ -1,0 +1,75 @@
+{
+ "archivo": "REC-0060.eml",
+ "tipo": "reclamo",
+ "estado": "ok",
+ "campos": {
+  "dni": "99897932",
+  "nombre": "Carlos Díaz León",
+  "monto_reclamado": 3457.84,
+  "entidad": "Financiera Andina DEMO S.A.",
+  "telefono": "999000512",
+  "correo": "cliente60@correo.demo",
+  "producto": "préstamo personal",
+  "fecha": "2026-04-19",
+  "motivo": "cobro indebido",
+  "ruc": "20991398016"
+ },
+ "fases": {
+  "1_ingesta": {
+   "dni": null,
+   "nombre": null,
+   "monto_reclamado": null,
+   "entidad": null,
+   "telefono": "999000512",
+   "correo": "cliente60@correo.demo",
+   "producto": null,
+   "fecha": null,
+   "motivo": null,
+   "ruc": null
+  },
+  "2_ocr": {
+   "dni": "99897932",
+   "nombre": null,
+   "monto_reclamado": 3457.84,
+   "entidad": null,
+   "telefono": "999000512",
+   "correo": "cliente60@correo.demo",
+   "producto": null,
+   "fecha": "2026-04-19",
+   "motivo": null,
+   "ruc": "20991398016"
+  },
+  "3_pln": {
+   "dni": "99897932",
+   "nombre": "Carlos Díaz León",
+   "monto_reclamado": 3457.84,
+   "entidad": "Financiera Andina DEMO S.A.",
+   "telefono": "999000512",
+   "correo": "cliente60@correo.demo",
+   "producto": "préstamo personal",
+   "fecha": "2026-04-19",
+   "motivo": null,
+   "ruc": "20991398016"
+  },
+  "4_llm": {
+   "dni": "99897932",
+   "nombre": "Carlos Díaz León",
+   "monto_reclamado": 3457.84,
+   "entidad": "Financiera Andina DEMO S.A.",
+   "telefono": "999000512",
+   "correo": "cliente60@correo.demo",
+   "producto": "préstamo personal",
+   "fecha": "2026-04-19",
+   "motivo": "cobro indebido",
+   "ruc": "20991398016"
+  }
+ },
+ "texto": "Asunto: Reclamo REC-0060\nSoy Carlos Díaz León, DNI 99897932. Reclamo a Financiera Andina DEMO S.A. (RUC 20991398016) por mi préstamo personal: cobro indebido.\nCargo del 19 de abril de 2026 por S/ 3,457.84.\nTeléfono 999000512 | cliente60@correo.demo",
+ "ocr": {
+  "texto": "Asunto: Reclamo REC-0060\nSoy Carlos Díaz León, DNI 99897932. Reclamo a Financiera Andina DEMO S.A. (RUC 20991398016) por mi préstamo personal: cobro indebido.\nCargo del 19 de abril de 2026 por S/ 3,457.84.\nTeléfono 999000512 | cliente60@correo.demo",
+  "confianza": 0.958,
+  "puntaje": 0.938,
+  "decision": "aceptar"
+ },
+ "revisar": []
+}

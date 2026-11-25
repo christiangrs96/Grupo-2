@@ -1,0 +1,75 @@
+{
+ "archivo": "REC-0053.eml",
+ "tipo": "reclamo",
+ "estado": "ok",
+ "campos": {
+  "dni": "99439839",
+  "nombre": "Rosa Quispe Lima",
+  "monto_reclamado": 3085.34,
+  "entidad": "Banco Cordillera DEMO S.A.",
+  "telefono": "999000460",
+  "correo": "cliente53@correo.demo",
+  "producto": "tarjeta de crédito",
+  "fecha": "2026-10-20",
+  "motivo": "cuenta cerrada",
+  "ruc": "20999701036"
+ },
+ "fases": {
+  "1_ingesta": {
+   "dni": null,
+   "nombre": null,
+   "monto_reclamado": null,
+   "entidad": null,
+   "telefono": "999000460",
+   "correo": "cliente53@correo.demo",
+   "producto": null,
+   "fecha": null,
+   "motivo": null,
+   "ruc": null
+  },
+  "2_ocr": {
+   "dni": "99439839",
+   "nombre": null,
+   "monto_reclamado": 3085.34,
+   "entidad": null,
+   "telefono": "999000460",
+   "correo": "cliente53@correo.demo",
+   "producto": null,
+   "fecha": "2026-10-20",
+   "motivo": null,
+   "ruc": "20999701036"
+  },
+  "3_pln": {
+   "dni": "99439839",
+   "nombre": "Rosa Quispe Lima",
+   "monto_reclamado": 3085.34,
+   "entidad": "Banco Cordillera DEMO S.A.",
+   "telefono": "999000460",
+   "correo": "cliente53@correo.demo",
+   "producto": "tarjeta de crédito",
+   "fecha": "2026-10-20",
+   "motivo": null,
+   "ruc": "20999701036"
+  },
+  "4_llm": {
+   "dni": "99439839",
+   "nombre": "Rosa Quispe Lima",
+   "monto_reclamado": 3085.34,
+   "entidad": "Banco Cordillera DEMO S.A.",
+   "telefono": "999000460",
+   "correo": "cliente53@correo.demo",
+   "producto": "tarjeta de crédito",
+   "fecha": "2026-10-20",
+   "motivo": "cuenta cerrada",
+   "ruc": "20999701036"
+  }
+ },
+ "texto": "Asunto: Reclamo REC-0053\nSoy Rosa Quispe Lima, DNI 99439839. Reclamo a Banco Cordillera DEMO S.A. (RUC 20999701036) por mi tarjeta de crédito: cuenta cerrada.\nCargo del 20 de octubre de 2026 por S/ 3,085.34.\nTeléfono 999000460 | cliente53@correo.demo",
+ "ocr": {
+  "texto": "Asunto: Reclamo REC-0053\nSoy Rosa Quispe Lima, DNI 99439839. Reclamo a Banco Cordillera DEMO S.A. (RUC 20999701036) por mi tarjeta de crédito: cuenta cerrada.\nCargo del 20 de octubre de 2026 por S/ 3,085.34.\nTeléfono 999000460 | cliente53@correo.demo",
+  "confianza": 0.927,
+  "puntaje": 0.907,
+  "decision": "aceptar"
+ },
+ "revisar": []
+}

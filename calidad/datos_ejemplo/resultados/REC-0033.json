@@ -1,0 +1,77 @@
+{
+ "archivo": "REC-0033.eml",
+ "tipo": "reclamo",
+ "estado": "ok",
+ "campos": {
+  "dni": "99356989",
+  "nombre": "Elena Rojas Mesa",
+  "monto_reclamado": 501.68,
+  "entidad": "Financiera Andina DEMO S.A.",
+  "telefono": "999000483",
+  "correo": "cliente33@correo.demo",
+  "producto": "cuenta sueldo",
+  "fecha": "2026-09-18",
+  "motivo": "demora en entrega",
+  "ruc": "20999724265"
+ },
+ "fases": {
+  "1_ingesta": {
+   "dni": null,
+   "nombre": null,
+   "monto_reclamado": null,
+   "entidad": null,
+   "telefono": "999000483",
+   "correo": "cliente33@correo.demo",
+   "producto": null,
+   "fecha": null,
+   "motivo": null,
+   "ruc": null
+  },
+  "2_ocr": {
+   "dni": "99356989",
+   "nombre": null,
+   "monto_reclamado": 501.68,
+   "entidad": null,
+   "telefono": "999000483",
+   "correo": "cliente33@correo.demo",
+   "producto": null,
+   "fecha": "2026-09-18",
+   "motivo": null,
+   "ruc": "20999724265"
+  },
+  "3_pln": {
+   "dni": "99356989",
+   "nombre": "Elena Rojas Mesa",
+   "monto_reclamado": 501.68,
+   "entidad": "Financiera Andina DEMO S.A.",
+   "telefono": "999000483",
+   "correo": "cliente33@correo.demo",
+   "producto": "cuenta sueldo",
+   "fecha": "2026-09-18",
+   "motivo": null,
+   "ruc": "20999724265"
+  },
+  "4_llm": {
+   "dni": "99356989",
+   "nombre": "Elena Rojas Mesa",
+   "monto_reclamado": 501.68,
+   "entidad": "Financiera Andina DEMO S.A.",
+   "telefono": "999000483",
+   "correo": "cliente33@correo.demo",
+   "producto": "cuenta sueldo",
+   "fecha": "2026-09-18",
+   "motivo": "demora en entrega",
+   "ruc": "20999724265"
+  }
+ },
+ "texto": "Asunto: Rcclamo REC-OO33\nSoy Elena Rojas Meso, DNI 993S6989. Reclarno o Financicro Andina DEMO S.A. (RUC 2O999724265) por rni cucnta sucldo: dernora cn entrego.\nCargo del 18 de septiembre de 2026 por S/ 501.68.\nTeléfono 9990OO483 | clientc33@correo.dcmo",
+ "ocr": {
+  "texto": "Asunto: Rcclamo REC-OO33\nSoy Elena Rojas Meso, DNI 993S6989. Reclarno o Financicro Andina DEMO S.A. (RUC 2O999724265) por rni cucnta sucldo: dernora cn entrego.\nCargo del 18 de septiembre de 2026 por S/ 501.68.\nTeléfono 9990OO483 | clientc33@correo.dcmo",
+  "confianza": 0.354,
+  "puntaje": 0.334,
+  "decision": "revisar"
+ },
+ "revisar": [
+  "ruta del OCR"
+ ]
+}

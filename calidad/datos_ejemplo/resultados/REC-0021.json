@@ -1,0 +1,75 @@
+{
+ "archivo": "REC-0021.eml",
+ "tipo": "reclamo",
+ "estado": "ok",
+ "campos": {
+  "dni": "99422247",
+  "nombre": "Luis Paz Vera",
+  "monto_reclamado": 3330.02,
+  "entidad": "Caja Rural Sol DEMO S.A.",
+  "telefono": null,
+  "correo": "cliente21@correo.demo",
+  "producto": "tarjeta de crédito",
+  "fecha": "2026-02-12",
+  "motivo": "demora en entrega",
+  "ruc": "20993032141"
+ },
+ "fases": {
+  "1_ingesta": {
+   "dni": null,
+   "nombre": null,
+   "monto_reclamado": null,
+   "entidad": null,
+   "telefono": null,
+   "correo": "cliente21@correo.demo",
+   "producto": null,
+   "fecha": null,
+   "motivo": null,
+   "ruc": null
+  },
+  "2_ocr": {
+   "dni": "99422247",
+   "nombre": null,
+   "monto_reclamado": 3330.02,
+   "entidad": null,
+   "telefono": null,
+   "correo": "cliente21@correo.demo",
+   "producto": null,
+   "fecha": "2026-02-12",
+   "motivo": null,
+   "ruc": "20993032141"
+  },
+  "3_pln": {
+   "dni": "99422247",
+   "nombre": "Luis Paz Vera",
+   "monto_reclamado": 3330.02,
+   "entidad": "Caja Rural Sol DEMO S.A.",
+   "telefono": null,
+   "correo": "cliente21@correo.demo",
+   "producto": "tarjeta de crédito",
+   "fecha": "2026-02-12",
+   "motivo": null,
+   "ruc": "20993032141"
+  },
+  "4_llm": {
+   "dni": "99422247",
+   "nombre": "Luis Paz Vera",
+   "monto_reclamado": 3330.02,
+   "entidad": "Caja Rural Sol DEMO S.A.",
+   "telefono": null,
+   "correo": "cliente21@correo.demo",
+   "producto": "tarjeta de crédito",
+   "fecha": "2026-02-12",
+   "motivo": "demora en entrega",
+   "ruc": "20993032141"
+  }
+ },
+ "texto": "Asunto: Reclamo REC-0021\nSoy Luis Paz Vera, DNI 99422247. Reclamo a Caja Rural Sol DEMO S.A. (RUC 20993032141) por mi tarjeta de crédito: demora en entrega.\nCargo del 12 de febrero de 2026 por S/ 3,330.02.\nTeléfono 999000878 | cliente21@correo.demo",
+ "ocr": {
+  "texto": "Asunto: Reclamo REC-0021\nSoy Luis Paz Vera, DNI 99422247. Reclamo a Caja Rural Sol DEMO S.A. (RUC 20993032141) por mi tarjeta de crédito: demora en entrega.\nCargo del 12 de febrero de 2026 por S/ 3,330.02.\nTeléfono 999000878 | cliente21@correo.demo",
+  "confianza": 0.954,
+  "puntaje": 0.934,
+  "decision": "aceptar"
+ },
+ "revisar": []
+}

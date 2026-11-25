@@ -1,0 +1,75 @@
+{
+ "archivo": "REC-0008.eml",
+ "tipo": "reclamo",
+ "estado": "ok",
+ "campos": {
+  "dni": "99700526",
+  "nombre": "Carlos Díaz León",
+  "monto_reclamado": 240.85,
+  "entidad": "Financiera Andina DEMO S.A.",
+  "telefono": "999000958",
+  "correo": "cliente8@correo.demo",
+  "producto": "préstamo personal",
+  "fecha": "2026-07-10",
+  "motivo": "cuenta cerrada",
+  "ruc": "20993981282"
+ },
+ "fases": {
+  "1_ingesta": {
+   "dni": null,
+   "nombre": null,
+   "monto_reclamado": null,
+   "entidad": null,
+   "telefono": "999000958",
+   "correo": "cliente8@correo.demo",
+   "producto": null,
+   "fecha": null,
+   "motivo": null,
+   "ruc": null
+  },
+  "2_ocr": {
+   "dni": "99700526",
+   "nombre": null,
+   "monto_reclamado": 240.85,
+   "entidad": null,
+   "telefono": "999000958",
+   "correo": "cliente8@correo.demo",
+   "producto": null,
+   "fecha": "2026-07-10",
+   "motivo": null,
+   "ruc": "20993981282"
+  },
+  "3_pln": {
+   "dni": "99700526",
+   "nombre": "Carlos Díaz León",
+   "monto_reclamado": 240.85,
+   "entidad": "Financiera Andina DEMO S.A.",
+   "telefono": "999000958",
+   "correo": "cliente8@correo.demo",
+   "producto": "préstamo personal",
+   "fecha": "2026-07-10",
+   "motivo": null,
+   "ruc": "20993981282"
+  },
+  "4_llm": {
+   "dni": "99700526",
+   "nombre": "Carlos Díaz León",
+   "monto_reclamado": 240.85,
+   "entidad": "Financiera Andina DEMO S.A.",
+   "telefono": "999000958",
+   "correo": "cliente8@correo.demo",
+   "producto": "préstamo personal",
+   "fecha": "2026-07-10",
+   "motivo": "cuenta cerrada",
+   "ruc": "20993981282"
+  }
+ },
+ "texto": "Asunto: Reclamo REC-0008\nSoy Carlos Díaz León, DNI 99700526. Reclamo a Financiera Andina DEMO S.A. (RUC 20993981282) por mi préstamo personal: cuenta cerrada.\nCargo del 10 de julio de 2026 por S/ 240.85.\nTeléfono 999000958 | cliente8@correo.demo",
+ "ocr": {
+  "texto": "Asunto: Reclamo REC-0008\nSoy Carlos Díaz León, DNI 99700526. Reclamo a Financiera Andina DEMO S.A. (RUC 20993981282) por mi préstamo personal: cuenta cerrada.\nCargo del 10 de julio de 2026 por S/ 240.85.\nTeléfono 999000958 | cliente8@correo.demo",
+  "confianza": 0.928,
+  "puntaje": 0.908,
+  "decision": "aceptar"
+ },
+ "revisar": []
+}

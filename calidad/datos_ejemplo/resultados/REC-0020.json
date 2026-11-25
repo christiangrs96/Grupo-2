@@ -1,0 +1,75 @@
+{
+ "archivo": "REC-0020.eml",
+ "tipo": "reclamo",
+ "estado": "ok",
+ "campos": {
+  "dni": "99292893",
+  "nombre": "Elena Rojas Mesa",
+  "monto_reclamado": 3691.21,
+  "entidad": "Financiera Andina DEMO S.A.",
+  "telefono": "999000593",
+  "correo": "cliente20@correo.demo",
+  "producto": "tarjeta de crédito",
+  "fecha": "2026-06-17",
+  "motivo": "demora en entrega",
+  "ruc": "20995656494"
+ },
+ "fases": {
+  "1_ingesta": {
+   "dni": null,
+   "nombre": null,
+   "monto_reclamado": null,
+   "entidad": null,
+   "telefono": "999000593",
+   "correo": "cliente20@correo.demo",
+   "producto": null,
+   "fecha": null,
+   "motivo": null,
+   "ruc": null
+  },
+  "2_ocr": {
+   "dni": "99292893",
+   "nombre": null,
+   "monto_reclamado": 3691.21,
+   "entidad": null,
+   "telefono": "999000593",
+   "correo": "cliente20@correo.demo",
+   "producto": null,
+   "fecha": "2026-06-17",
+   "motivo": null,
+   "ruc": "20995656494"
+  },
+  "3_pln": {
+   "dni": "99292893",
+   "nombre": "Elena Rojas Mesa",
+   "monto_reclamado": 3691.21,
+   "entidad": "Financiera Andina DEMO S.A.",
+   "telefono": "999000593",
+   "correo": "cliente20@correo.demo",
+   "producto": "tarjeta de crédito",
+   "fecha": "2026-06-17",
+   "motivo": null,
+   "ruc": "20995656494"
+  },
+  "4_llm": {
+   "dni": "99292893",
+   "nombre": "Elena Rojas Mesa",
+   "monto_reclamado": 3691.21,
+   "entidad": "Financiera Andina DEMO S.A.",
+   "telefono": "999000593",
+   "correo": "cliente20@correo.demo",
+   "producto": "tarjeta de crédito",
+   "fecha": "2026-06-17",
+   "motivo": "demora en entrega",
+   "ruc": "20995656494"
+  }
+ },
+ "texto": "Asunto: Reclamo REC-0020\nSoy Elena Rojas Mesa, DNI 99292893. Reclamo a Financiera Andina DEMO S.A. (RUC 20995656494) por mi tarjeta de crédito: demora en entrega.\nCargo del 17 de junio de 2026 por S/ 3,691.21.\nTeléfono 999000593 | cliente20@correo.demo",
+ "ocr": {
+  "texto": "Asunto: Reclamo REC-0020\nSoy Elena Rojas Mesa, DNI 99292893. Reclamo a Financiera Andina DEMO S.A. (RUC 20995656494) por mi tarjeta de crédito: demora en entrega.\nCargo del 17 de junio de 2026 por S/ 3,691.21.\nTeléfono 999000593 | cliente20@correo.demo",
+  "confianza": 0.958,
+  "puntaje": 0.938,
+  "decision": "aceptar"
+ },
+ "revisar": []
+}

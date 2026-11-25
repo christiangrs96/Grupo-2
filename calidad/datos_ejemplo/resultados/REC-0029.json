@@ -1,0 +1,75 @@
+{
+ "archivo": "REC-0029.eml",
+ "tipo": "reclamo",
+ "estado": "ok",
+ "campos": {
+  "dni": "99129818",
+  "nombre": "Luis Paz Vera",
+  "monto_reclamado": 1665.48,
+  "entidad": "Banco Cordillera DEMO S.A.",
+  "telefono": "999000723",
+  "correo": "cliente29@correo.demo",
+  "producto": "cuenta sueldo",
+  "fecha": "2026-06-28",
+  "motivo": "cuenta cerrada",
+  "ruc": "20991397265"
+ },
+ "fases": {
+  "1_ingesta": {
+   "dni": null,
+   "nombre": null,
+   "monto_reclamado": null,
+   "entidad": null,
+   "telefono": "999000723",
+   "correo": "cliente29@correo.demo",
+   "producto": null,
+   "fecha": null,
+   "motivo": null,
+   "ruc": null
+  },
+  "2_ocr": {
+   "dni": "99129818",
+   "nombre": null,
+   "monto_reclamado": 1665.48,
+   "entidad": null,
+   "telefono": "999000723",
+   "correo": "cliente29@correo.demo",
+   "producto": null,
+   "fecha": "2026-06-28",
+   "motivo": null,
+   "ruc": "20991397265"
+  },
+  "3_pln": {
+   "dni": "99129818",
+   "nombre": "Luis Paz Vera",
+   "monto_reclamado": 1665.48,
+   "entidad": "Banco Cordillera DEMO S.A.",
+   "telefono": "999000723",
+   "correo": "cliente29@correo.demo",
+   "producto": "cuenta sueldo",
+   "fecha": "2026-06-28",
+   "motivo": null,
+   "ruc": "20991397265"
+  },
+  "4_llm": {
+   "dni": "99129818",
+   "nombre": "Luis Paz Vera",
+   "monto_reclamado": 1665.48,
+   "entidad": "Banco Cordillera DEMO S.A.",
+   "telefono": "999000723",
+   "correo": "cliente29@correo.demo",
+   "producto": "cuenta sueldo",
+   "fecha": "2026-06-28",
+   "motivo": "cuenta cerrada",
+   "ruc": "20991397265"
+  }
+ },
+ "texto": "Asunto: Reclamo REC-0029\nSoy Luis Paz Vera, DNI 99129818. Reclamo a Banco Cordillera DEMO S.A. (RUC 20991397265) por mi cuenta sueldo: cuenta cerrada.\nCargo del 28 de junio de 2026 por S/ 1,665.48.\nTeléfono 999000723 | cliente29@correo.demo",
+ "ocr": {
+  "texto": "Asunto: Reclamo REC-0029\nSoy Luis Paz Vera, DNI 99129818. Reclamo a Banco Cordillera DEMO S.A. (RUC 20991397265) por mi cuenta sueldo: cuenta cerrada.\nCargo del 28 de junio de 2026 por S/ 1,665.48.\nTeléfono 999000723 | cliente29@correo.demo",
+  "confianza": 0.967,
+  "puntaje": 0.947,
+  "decision": "aceptar"
+ },
+ "revisar": []
+}

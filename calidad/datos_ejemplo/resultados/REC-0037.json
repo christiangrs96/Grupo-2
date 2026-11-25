@@ -1,0 +1,75 @@
+{
+ "archivo": "REC-0037.eml",
+ "tipo": "reclamo",
+ "estado": "ok",
+ "campos": {
+  "dni": "99719348",
+  "nombre": "Carlos Díaz León",
+  "monto_reclamado": 1085.49,
+  "entidad": "Caja Rural Sol DEMO S.A.",
+  "telefono": "999000913",
+  "correo": "cliente37@correo.demo",
+  "producto": "cuenta sueldo",
+  "fecha": "2026-05-21",
+  "motivo": "cuenta cerrada",
+  "ruc": "20997566719"
+ },
+ "fases": {
+  "1_ingesta": {
+   "dni": null,
+   "nombre": null,
+   "monto_reclamado": null,
+   "entidad": null,
+   "telefono": "999000913",
+   "correo": "cliente37@correo.demo",
+   "producto": null,
+   "fecha": null,
+   "motivo": null,
+   "ruc": null
+  },
+  "2_ocr": {
+   "dni": "99719348",
+   "nombre": null,
+   "monto_reclamado": 1085.49,
+   "entidad": null,
+   "telefono": "999000913",
+   "correo": "cliente37@correo.demo",
+   "producto": null,
+   "fecha": "2026-05-21",
+   "motivo": null,
+   "ruc": "20997566719"
+  },
+  "3_pln": {
+   "dni": "99719348",
+   "nombre": "Carlos Díaz León",
+   "monto_reclamado": 1085.49,
+   "entidad": "Caja Rural Sol DEMO S.A.",
+   "telefono": "999000913",
+   "correo": "cliente37@correo.demo",
+   "producto": "cuenta sueldo",
+   "fecha": "2026-05-21",
+   "motivo": null,
+   "ruc": "20997566719"
+  },
+  "4_llm": {
+   "dni": "99719348",
+   "nombre": "Carlos Díaz León",
+   "monto_reclamado": 1085.49,
+   "entidad": "Caja Rural Sol DEMO S.A.",
+   "telefono": "999000913",
+   "correo": "cliente37@correo.demo",
+   "producto": "cuenta sueldo",
+   "fecha": "2026-05-21",
+   "motivo": "cuenta cerrada",
+   "ruc": "20997566719"
+  }
+ },
+ "texto": "Asunto: Reclamo REC-0037\nSoy Carlos Díaz León, DNI 99719348. Reclamo a Caja Rural Sol DEMO S.A. (RUC 20997566719) por mi cuenta sueldo: cuenta cerrada.\nCargo del 21 de mayo de 2026 por S/ 1,085.49.\nTeléfono 999000913 | cliente37@correo.demo",
+ "ocr": {
+  "texto": "Asunto: Reclamo REC-0037\nSoy Carlos Díaz León, DNI 99719348. Reclamo a Caja Rural Sol DEMO S.A. (RUC 20997566719) por mi cuenta sueldo: cuenta cerrada.\nCargo del 21 de mayo de 2026 por S/ 1,085.49.\nTeléfono 999000913 | cliente37@correo.demo",
+  "confianza": 0.965,
+  "puntaje": 0.945,
+  "decision": "aceptar"
+ },
+ "revisar": []
+}

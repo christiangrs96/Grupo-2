@@ -1,0 +1,75 @@
+{
+ "archivo": "REC-0045.eml",
+ "tipo": "reclamo",
+ "estado": "ok",
+ "campos": {
+  "dni": "99426124",
+  "nombre": "Ana Ruiz Soto",
+  "monto_reclamado": 1568.43,
+  "entidad": "Caja Rural Sol DEMO S.A.",
+  "telefono": "999000307",
+  "correo": "cliente45@correo.demo",
+  "producto": "tarjeta de crédito",
+  "fecha": "2026-01-03",
+  "motivo": "cobro indebido",
+  "ruc": "20996154964"
+ },
+ "fases": {
+  "1_ingesta": {
+   "dni": null,
+   "nombre": null,
+   "monto_reclamado": null,
+   "entidad": null,
+   "telefono": "999000307",
+   "correo": "cliente45@correo.demo",
+   "producto": null,
+   "fecha": null,
+   "motivo": null,
+   "ruc": null
+  },
+  "2_ocr": {
+   "dni": "99426124",
+   "nombre": null,
+   "monto_reclamado": 1568.43,
+   "entidad": null,
+   "telefono": "999000307",
+   "correo": "cliente45@correo.demo",
+   "producto": null,
+   "fecha": "2026-01-03",
+   "motivo": null,
+   "ruc": "20996154964"
+  },
+  "3_pln": {
+   "dni": "99426124",
+   "nombre": "Ana Ruiz Soto",
+   "monto_reclamado": 1568.43,
+   "entidad": "Caja Rural Sol DEMO S.A.",
+   "telefono": "999000307",
+   "correo": "cliente45@correo.demo",
+   "producto": "tarjeta de crédito",
+   "fecha": "2026-01-03",
+   "motivo": null,
+   "ruc": "20996154964"
+  },
+  "4_llm": {
+   "dni": "99426124",
+   "nombre": "Ana Ruiz Soto",
+   "monto_reclamado": 1568.43,
+   "entidad": "Caja Rural Sol DEMO S.A.",
+   "telefono": "999000307",
+   "correo": "cliente45@correo.demo",
+   "producto": "tarjeta de crédito",
+   "fecha": "2026-01-03",
+   "motivo": "cobro indebido",
+   "ruc": "20996154964"
+  }
+ },
+ "texto": "Asunto: Reclamo REC-0045\nSoy Ana Ruiz Soto, DNI 99426124. Reclamo a Caja Rural Sol DEMO S.A. (RUC 20996154964) por mi tarjeta de crédito: cuenta cerrada.\nCargo del 3 de enero de 2026 por S/ 1,568.43.\nTeléfono 999000307 | cliente45@correo.demo",
+ "ocr": {
+  "texto": "Asunto: Reclamo REC-0045\nSoy Ana Ruiz Soto, DNI 99426124. Reclamo a Caja Rural Sol DEMO S.A. (RUC 20996154964) por mi tarjeta de crédito: cuenta cerrada.\nCargo del 3 de enero de 2026 por S/ 1,568.43.\nTeléfono 999000307 | cliente45@correo.demo",
+  "confianza": 0.955,
+  "puntaje": 0.935,
+  "decision": "aceptar"
+ },
+ "revisar": []
+}

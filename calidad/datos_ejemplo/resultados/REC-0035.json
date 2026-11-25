@@ -1,0 +1,75 @@
+{
+ "archivo": "REC-0035.eml",
+ "tipo": "reclamo",
+ "estado": "ok",
+ "campos": {
+  "dni": "99577437",
+  "nombre": "Rosa Quispe Lima",
+  "monto_reclamado": 1737.65,
+  "entidad": "Caja Rural Sol DEMO S.A.",
+  "telefono": "999000990",
+  "correo": "cliente35@correo.demo",
+  "producto": "tarjeta de crédito",
+  "fecha": "2026-09-13",
+  "motivo": "demora en entrega",
+  "ruc": "20998425019"
+ },
+ "fases": {
+  "1_ingesta": {
+   "dni": null,
+   "nombre": null,
+   "monto_reclamado": null,
+   "entidad": null,
+   "telefono": "999000990",
+   "correo": "cliente35@correo.demo",
+   "producto": null,
+   "fecha": null,
+   "motivo": null,
+   "ruc": null
+  },
+  "2_ocr": {
+   "dni": "99577437",
+   "nombre": null,
+   "monto_reclamado": 1737.65,
+   "entidad": null,
+   "telefono": "999000990",
+   "correo": "cliente35@correo.demo",
+   "producto": null,
+   "fecha": "2026-09-13",
+   "motivo": null,
+   "ruc": "20998425019"
+  },
+  "3_pln": {
+   "dni": "99577437",
+   "nombre": "Rosa Quispe Lima",
+   "monto_reclamado": 1737.65,
+   "entidad": "Caja Rural Sol DEMO S.A.",
+   "telefono": "999000990",
+   "correo": "cliente35@correo.demo",
+   "producto": "tarjeta de crédito",
+   "fecha": "2026-09-13",
+   "motivo": null,
+   "ruc": "20998425019"
+  },
+  "4_llm": {
+   "dni": "99577437",
+   "nombre": "Rosa Quispe Lima",
+   "monto_reclamado": 1737.65,
+   "entidad": "Caja Rural Sol DEMO S.A.",
+   "telefono": "999000990",
+   "correo": "cliente35@correo.demo",
+   "producto": "tarjeta de crédito",
+   "fecha": "2026-09-13",
+   "motivo": "demora en entrega",
+   "ruc": "20998425019"
+  }
+ },
+ "texto": "Asunto: Reclamo REC-0035\nSoy Rosa Quispe Lima, DNI 99577437. Reclamo a Caja Rural Sol DEMO S.A. (RUC 20998425019) por mi tarjeta de crédito: demora en entrega.\nCargo del 13 de septiembre de 2026 por S/ 1,737.65.\nTeléfono 999000990 | cliente35@correo.demo",
+ "ocr": {
+  "texto": "Asunto: Reclamo REC-0035\nSoy Rosa Quispe Lima, DNI 99577437. Reclamo a Caja Rural Sol DEMO S.A. (RUC 20998425019) por mi tarjeta de crédito: demora en entrega.\nCargo del 13 de septiembre de 2026 por S/ 1,737.65.\nTeléfono 999000990 | cliente35@correo.demo",
+  "confianza": 0.957,
+  "puntaje": 0.937,
+  "decision": "aceptar"
+ },
+ "revisar": []
+}

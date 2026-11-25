@@ -1,0 +1,75 @@
+{
+ "archivo": "REC-0049.eml",
+ "tipo": "reclamo",
+ "estado": "ok",
+ "campos": {
+  "dni": "99405953",
+  "nombre": "Elena Rojas Mesa",
+  "monto_reclamado": 3833.1,
+  "entidad": "Banco Cordillera DEMO S.A.",
+  "telefono": "999000481",
+  "correo": "cliente49@correo.demo",
+  "producto": "tarjeta de crédito",
+  "fecha": "2026-04-23",
+  "motivo": "cuenta cerrada",
+  "ruc": "20993056929"
+ },
+ "fases": {
+  "1_ingesta": {
+   "dni": null,
+   "nombre": null,
+   "monto_reclamado": null,
+   "entidad": null,
+   "telefono": "999000481",
+   "correo": "cliente49@correo.demo",
+   "producto": null,
+   "fecha": null,
+   "motivo": null,
+   "ruc": null
+  },
+  "2_ocr": {
+   "dni": "99405953",
+   "nombre": null,
+   "monto_reclamado": 3833.1,
+   "entidad": null,
+   "telefono": "999000481",
+   "correo": "cliente49@correo.demo",
+   "producto": null,
+   "fecha": "2026-04-23",
+   "motivo": null,
+   "ruc": "20993056929"
+  },
+  "3_pln": {
+   "dni": "99405953",
+   "nombre": "Elena Rojas Mesa",
+   "monto_reclamado": 3833.1,
+   "entidad": "Banco Cordillera DEMO S.A.",
+   "telefono": "999000481",
+   "correo": "cliente49@correo.demo",
+   "producto": "tarjeta de crédito",
+   "fecha": "2026-04-23",
+   "motivo": null,
+   "ruc": "20993056929"
+  },
+  "4_llm": {
+   "dni": "99405953",
+   "nombre": "Elena Rojas Mesa",
+   "monto_reclamado": 3833.1,
+   "entidad": "Banco Cordillera DEMO S.A.",
+   "telefono": "999000481",
+   "correo": "cliente49@correo.demo",
+   "producto": "tarjeta de crédito",
+   "fecha": "2026-04-23",
+   "motivo": "cuenta cerrada",
+   "ruc": "20993056929"
+  }
+ },
+ "texto": "Asunto: Reclamo REC-0049\nSoy Elena Rojas Mesa, DNI 99405953. Reclamo a Banco Cordillera DEMO S.A. (RUC 20993056929) por mi tarjeta de crédito: cuenta cerrada.\nCargo del 23 de abril de 2026 por S/ 3,833.10.\nTeléfono 999000481 | cliente49@correo.demo",
+ "ocr": {
+  "texto": "Asunto: Reclamo REC-0049\nSoy Elena Rojas Mesa, DNI 99405953. Reclamo a Banco Cordillera DEMO S.A. (RUC 20993056929) por mi tarjeta de crédito: cuenta cerrada.\nCargo del 23 de abril de 2026 por S/ 3,833.10.\nTeléfono 999000481 | cliente49@correo.demo",
+  "confianza": 0.977,
+  "puntaje": 0.957,
+  "decision": "aceptar"
+ },
+ "revisar": []
+}

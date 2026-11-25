@@ -1,0 +1,5 @@
+.venv/
+datos/
+salidas_calidad/
+__pycache__/
+.pytest_cache/

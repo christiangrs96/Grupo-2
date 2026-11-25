@@ -1,0 +1,75 @@
+{
+ "archivo": "REC-0039.eml",
+ "tipo": "reclamo",
+ "estado": "ok",
+ "campos": {
+  "dni": "99366519",
+  "nombre": "Jorge Inventado Pérez",
+  "monto_reclamado": 4882.06,
+  "entidad": "Banco Cordillera DEMO S.A.",
+  "telefono": "999000305",
+  "correo": "cliente39@correo.demo",
+  "producto": "préstamo personal",
+  "fecha": "2026-08-15",
+  "motivo": "cobro indebido",
+  "ruc": "20993062881"
+ },
+ "fases": {
+  "1_ingesta": {
+   "dni": null,
+   "nombre": null,
+   "monto_reclamado": null,
+   "entidad": null,
+   "telefono": "999000305",
+   "correo": "cliente39@correo.demo",
+   "producto": null,
+   "fecha": null,
+   "motivo": null,
+   "ruc": null
+  },
+  "2_ocr": {
+   "dni": "99366519",
+   "nombre": null,
+   "monto_reclamado": 4882.06,
+   "entidad": null,
+   "telefono": "999000305",
+   "correo": "cliente39@correo.demo",
+   "producto": null,
+   "fecha": "2026-08-15",
+   "motivo": null,
+   "ruc": "20993062881"
+  },
+  "3_pln": {
+   "dni": "99366519",
+   "nombre": "Jorge Inventado Pérez",
+   "monto_reclamado": 4882.06,
+   "entidad": "Banco Cordillera DEMO S.A.",
+   "telefono": "999000305",
+   "correo": "cliente39@correo.demo",
+   "producto": "préstamo personal",
+   "fecha": "2026-08-15",
+   "motivo": null,
+   "ruc": "20993062881"
+  },
+  "4_llm": {
+   "dni": "99366519",
+   "nombre": "Jorge Inventado Pérez",
+   "monto_reclamado": 4882.06,
+   "entidad": "Banco Cordillera DEMO S.A.",
+   "telefono": "999000305",
+   "correo": "cliente39@correo.demo",
+   "producto": "préstamo personal",
+   "fecha": "2026-08-15",
+   "motivo": "cobro indebido",
+   "ruc": "20993062881"
+  }
+ },
+ "texto": "Asunto: Reclamo REC-0039\nSoy Rosa Quispe Lima, DNI 99366519. Reclamo a Banco Cordillera DEMO S.A. (RUC 20993062881) por mi préstamo personal: cobro indebido.\nCargo del 15 de agosto de 2026 por S/ 4,882.06.\nTeléfono 999000305 | cliente39@correo.demo",
+ "ocr": {
+  "texto": "Asunto: Reclamo REC-0039\nSoy Rosa Quispe Lima, DNI 99366519. Reclamo a Banco Cordillera DEMO S.A. (RUC 20993062881) por mi préstamo personal: cobro indebido.\nCargo del 15 de agosto de 2026 por S/ 4,882.06.\nTeléfono 999000305 | cliente39@correo.demo",
+  "confianza": 0.927,
+  "puntaje": 0.907,
+  "decision": "aceptar"
+ },
+ "revisar": []
+}

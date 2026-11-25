@@ -1,0 +1,75 @@
+{
+ "archivo": "REC-0030.eml",
+ "tipo": "reclamo",
+ "estado": "ok",
+ "campos": {
+  "dni": "99683619",
+  "nombre": "Elena Rojas Mesa",
+  "monto_reclamado": 4085.37,
+  "entidad": "Banco Cordillera DEMO S.A.",
+  "telefono": "999000227",
+  "correo": "cliente30@correo.demo",
+  "producto": "tarjeta de crédito",
+  "fecha": "2026-03-19",
+  "motivo": "cuenta cerrada",
+  "ruc": "20993108953"
+ },
+ "fases": {
+  "1_ingesta": {
+   "dni": null,
+   "nombre": null,
+   "monto_reclamado": null,
+   "entidad": null,
+   "telefono": "999000227",
+   "correo": "cliente30@correo.demo",
+   "producto": null,
+   "fecha": null,
+   "motivo": null,
+   "ruc": null
+  },
+  "2_ocr": {
+   "dni": "99683619",
+   "nombre": null,
+   "monto_reclamado": 4085.37,
+   "entidad": null,
+   "telefono": "999000227",
+   "correo": "cliente30@correo.demo",
+   "producto": null,
+   "fecha": "2026-03-19",
+   "motivo": null,
+   "ruc": "20993108953"
+  },
+  "3_pln": {
+   "dni": "99683619",
+   "nombre": "Elena Rojas Mesa",
+   "monto_reclamado": 4085.37,
+   "entidad": "Banco Cordillera DEMO S.A.",
+   "telefono": "999000227",
+   "correo": "cliente30@correo.demo",
+   "producto": "tarjeta de crédito",
+   "fecha": "2026-03-19",
+   "motivo": null,
+   "ruc": "20993108953"
+  },
+  "4_llm": {
+   "dni": "99683619",
+   "nombre": "Elena Rojas Mesa",
+   "monto_reclamado": 4085.37,
+   "entidad": "Banco Cordillera DEMO S.A.",
+   "telefono": "999000227",
+   "correo": "cliente30@correo.demo",
+   "producto": "tarjeta de crédito",
+   "fecha": "2026-03-19",
+   "motivo": "cuenta cerrada",
+   "ruc": "20993108953"
+  }
+ },
+ "texto": "Asunto: Reclamo REC-0030\nSoy Elena Rojas Mesa, DNI 99683619. Reclamo a Banco Cordillera DEMO S.A. (RUC 20993108953) por mi tarjeta de crédito: cuenta cerrada.\nCargo del 19 de marzo de 2026 por S/ 4,085.37.\nTeléfono 999000227 | cliente30@correo.demo",
+ "ocr": {
+  "texto": "Asunto: Reclamo REC-0030\nSoy Elena Rojas Mesa, DNI 99683619. Reclamo a Banco Cordillera DEMO S.A. (RUC 20993108953) por mi tarjeta de crédito: cuenta cerrada.\nCargo del 19 de marzo de 2026 por S/ 4,085.37.\nTeléfono 999000227 | cliente30@correo.demo",
+  "confianza": 0.916,
+  "puntaje": 0.896,
+  "decision": "aceptar"
+ },
+ "revisar": []
+}

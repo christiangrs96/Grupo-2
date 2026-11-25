@@ -1,0 +1,12 @@
+{
+ "dni": "99849124",
+ "nombre": "Rosa Quispe Lima",
+ "monto_reclamado": 1937.75,
+ "entidad": "Banco Cordillera DEMO S.A.",
+ "telefono": "999000309",
+ "correo": "cliente22@correo.demo",
+ "producto": "préstamo personal",
+ "fecha": "2026-05-14",
+ "motivo": "cobro indebido",
+ "ruc": "20995729505"
+}

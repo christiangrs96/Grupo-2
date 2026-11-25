@@ -1,0 +1,75 @@
+{
+ "archivo": "REC-0018.eml",
+ "tipo": "reclamo",
+ "estado": "ok",
+ "campos": {
+  "dni": "99609954",
+  "nombre": "Ana Ruiz Soto",
+  "monto_reclamado": 841.43,
+  "entidad": "Banco Cordillera",
+  "telefono": "999000462",
+  "correo": "cliente18@correo.demo",
+  "producto": "cuenta sueldo",
+  "fecha": "2026-06-24",
+  "motivo": "cuenta cerrada",
+  "ruc": "20993700071"
+ },
+ "fases": {
+  "1_ingesta": {
+   "dni": null,
+   "nombre": null,
+   "monto_reclamado": null,
+   "entidad": null,
+   "telefono": "999000462",
+   "correo": "cliente18@correo.demo",
+   "producto": null,
+   "fecha": null,
+   "motivo": null,
+   "ruc": null
+  },
+  "2_ocr": {
+   "dni": "99609954",
+   "nombre": null,
+   "monto_reclamado": 841.43,
+   "entidad": null,
+   "telefono": "999000462",
+   "correo": "cliente18@correo.demo",
+   "producto": null,
+   "fecha": "2026-06-24",
+   "motivo": null,
+   "ruc": "20993700071"
+  },
+  "3_pln": {
+   "dni": "99609954",
+   "nombre": "Ana Ruiz Soto",
+   "monto_reclamado": 841.43,
+   "entidad": "Banco Cordillera",
+   "telefono": "999000462",
+   "correo": "cliente18@correo.demo",
+   "producto": "cuenta sueldo",
+   "fecha": "2026-06-24",
+   "motivo": null,
+   "ruc": "20993700071"
+  },
+  "4_llm": {
+   "dni": "99609954",
+   "nombre": "Ana Ruiz Soto",
+   "monto_reclamado": 841.43,
+   "entidad": "Banco Cordillera",
+   "telefono": "999000462",
+   "correo": "cliente18@correo.demo",
+   "producto": "cuenta sueldo",
+   "fecha": "2026-06-24",
+   "motivo": "cuenta cerrada",
+   "ruc": "20993700071"
+  }
+ },
+ "texto": "Asunto: Reclamo REC-0018\nSoy Ana Ruiz Soto, DNI 99609954. Reclamo a Financiera Andina DEMO S.A. (RUC 20993700071) por mi cuenta sueldo: cuenta cerrada.\nCargo del 24 de junio de 2026 por S/ 841.43.\nTeléfono 999000462 | cliente18@correo.demo",
+ "ocr": {
+  "texto": "Asunto: Reclamo REC-0018\nSoy Ana Ruiz Soto, DNI 99609954. Reclamo a Financiera Andina DEMO S.A. (RUC 20993700071) por mi cuenta sueldo: cuenta cerrada.\nCargo del 24 de junio de 2026 por S/ 841.43.\nTeléfono 999000462 | cliente18@correo.demo",
+  "confianza": 0.95,
+  "puntaje": 0.93,
+  "decision": "aceptar"
+ },
+ "revisar": []
+}

@@ -1,0 +1,12 @@
+{
+ "dni": "99445801",
+ "nombre": "Luis Paz Vera",
+ "monto_reclamado": 2909.52,
+ "entidad": "Caja Rural Sol DEMO S.A.",
+ "telefono": "999000557",
+ "correo": "cliente12@correo.demo",
+ "producto": "cuenta sueldo",
+ "fecha": "2026-05-12",
+ "motivo": "cobro indebido",
+ "ruc": "20996147241"
+}

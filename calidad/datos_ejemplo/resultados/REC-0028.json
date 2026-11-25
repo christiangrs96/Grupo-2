@@ -1,0 +1,75 @@
+{
+ "archivo": "REC-0028.eml",
+ "tipo": "reclamo",
+ "estado": "ok",
+ "campos": {
+  "dni": "99250744",
+  "nombre": "Ana Ruiz Soto",
+  "monto_reclamado": 2762.05,
+  "entidad": "Financiera Andina DEMO S.A.",
+  "telefono": "999000139",
+  "correo": "cliente28@correo.demo",
+  "producto": "cuenta sueldo",
+  "fecha": "2026-08-17",
+  "motivo": "demora en entrega",
+  "ruc": "20991484532"
+ },
+ "fases": {
+  "1_ingesta": {
+   "dni": null,
+   "nombre": null,
+   "monto_reclamado": null,
+   "entidad": null,
+   "telefono": "999000139",
+   "correo": "cliente28@correo.demo",
+   "producto": null,
+   "fecha": null,
+   "motivo": null,
+   "ruc": null
+  },
+  "2_ocr": {
+   "dni": "99250744",
+   "nombre": null,
+   "monto_reclamado": 2762.05,
+   "entidad": null,
+   "telefono": "999000139",
+   "correo": "cliente28@correo.demo",
+   "producto": null,
+   "fecha": "2026-08-17",
+   "motivo": null,
+   "ruc": "20991484532"
+  },
+  "3_pln": {
+   "dni": "99250744",
+   "nombre": "Ana Ruiz Soto",
+   "monto_reclamado": 2762.05,
+   "entidad": "Financiera Andina DEMO S.A.",
+   "telefono": "999000139",
+   "correo": "cliente28@correo.demo",
+   "producto": "cuenta sueldo",
+   "fecha": "2026-08-17",
+   "motivo": null,
+   "ruc": "20991484532"
+  },
+  "4_llm": {
+   "dni": "99250744",
+   "nombre": "Ana Ruiz Soto",
+   "monto_reclamado": 2762.05,
+   "entidad": "Financiera Andina DEMO S.A.",
+   "telefono": "999000139",
+   "correo": "cliente28@correo.demo",
+   "producto": "cuenta sueldo",
+   "fecha": "2026-08-17",
+   "motivo": "demora en entrega",
+   "ruc": "20991484532"
+  }
+ },
+ "texto": "Asunto: Reclamo REC-0028\nSoy Ana Ruiz Soto, DNI 99250744. Reclamo a Financiera Andina DEMO S.A. (RUC 20991484532) por mi cuenta sueldo: demora en entrega.\nCargo del 17 de agosto de 2026 por S/ 2,762.05.\nTeléfono 999000139 | cliente28@correo.demo",
+ "ocr": {
+  "texto": "Asunto: Reclamo REC-0028\nSoy Ana Ruiz Soto, DNI 99250744. Reclamo a Financiera Andina DEMO S.A. (RUC 20991484532) por mi cuenta sueldo: demora en entrega.\nCargo del 17 de agosto de 2026 por S/ 2,762.05.\nTeléfono 999000139 | cliente28@correo.demo",
+  "confianza": 0.917,
+  "puntaje": 0.897,
+  "decision": "aceptar"
+ },
+ "revisar": []
+}

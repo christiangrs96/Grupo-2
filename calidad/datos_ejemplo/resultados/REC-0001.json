@@ -1,0 +1,75 @@
+{
+ "archivo": "REC-0001.eml",
+ "tipo": "reclamo",
+ "estado": "ok",
+ "campos": {
+  "dni": "99636685",
+  "nombre": "Ana Ruiz Soto",
+  "monto_reclamado": 2552.38,
+  "entidad": "Banco Cordillera DEMO S.A.",
+  "telefono": "999000715",
+  "correo": "cliente1@correo.demo",
+  "producto": "préstamo personal",
+  "fecha": "2026-06-04",
+  "motivo": "cuenta cerrada",
+  "ruc": "20995410461"
+ },
+ "fases": {
+  "1_ingesta": {
+   "dni": null,
+   "nombre": null,
+   "monto_reclamado": null,
+   "entidad": null,
+   "telefono": "999000715",
+   "correo": "cliente1@correo.demo",
+   "producto": null,
+   "fecha": null,
+   "motivo": null,
+   "ruc": null
+  },
+  "2_ocr": {
+   "dni": "99636685",
+   "nombre": null,
+   "monto_reclamado": 2552.38,
+   "entidad": null,
+   "telefono": "999000715",
+   "correo": "cliente1@correo.demo",
+   "producto": null,
+   "fecha": "2026-06-04",
+   "motivo": null,
+   "ruc": "20995410461"
+  },
+  "3_pln": {
+   "dni": "99636685",
+   "nombre": "Ana Ruiz Soto",
+   "monto_reclamado": 2552.38,
+   "entidad": "Banco Cordillera DEMO S.A.",
+   "telefono": "999000715",
+   "correo": "cliente1@correo.demo",
+   "producto": "préstamo personal",
+   "fecha": "2026-06-04",
+   "motivo": null,
+   "ruc": "20995410461"
+  },
+  "4_llm": {
+   "dni": "99636685",
+   "nombre": "Ana Ruiz Soto",
+   "monto_reclamado": 2552.38,
+   "entidad": "Banco Cordillera DEMO S.A.",
+   "telefono": "999000715",
+   "correo": "cliente1@correo.demo",
+   "producto": "préstamo personal",
+   "fecha": "2026-06-04",
+   "motivo": "cuenta cerrada",
+   "ruc": "20995410461"
+  }
+ },
+ "texto": "Asunto: Reclamo REC-0001\nSoy Ana Ruiz Soto, DNI 99636685. Reclamo a Banco Cordillera DEMO S.A. (RUC 2099S410461) por mi préstamo personal: cuenta cerrada.\nCargo del 4 de junio de 2026 por S/ 2,552.38.\nTeléfono 999000715 | cliente1@correo.derno",
+ "ocr": {
+  "texto": "Asunto: Reclamo REC-0001\nSoy Ana Ruiz Soto, DNI 99636685. Reclamo a Banco Cordillera DEMO S.A. (RUC 2099S410461) por mi préstamo personal: cuenta cerrada.\nCargo del 4 de junio de 2026 por S/ 2,552.38.\nTeléfono 999000715 | cliente1@correo.derno",
+  "confianza": 0.939,
+  "puntaje": 0.919,
+  "decision": "aceptar"
+ },
+ "revisar": []
+}

@@ -1,0 +1,75 @@
+{
+ "archivo": "REC-0046.eml",
+ "tipo": "reclamo",
+ "estado": "ok",
+ "campos": {
+  "dni": "99195495",
+  "nombre": "Rosa Quispe Lima",
+  "monto_reclamado": 1329.04,
+  "entidad": "Banco Cordillera DEMO S.A.",
+  "telefono": "999000145",
+  "correo": "cliente46@correo.demo",
+  "producto": "préstamo personal",
+  "fecha": "2026-08-12",
+  "motivo": "cobro indebido",
+  "ruc": "20997581921"
+ },
+ "fases": {
+  "1_ingesta": {
+   "dni": null,
+   "nombre": null,
+   "monto_reclamado": null,
+   "entidad": null,
+   "telefono": "999000145",
+   "correo": "cliente46@correo.demo",
+   "producto": null,
+   "fecha": null,
+   "motivo": null,
+   "ruc": null
+  },
+  "2_ocr": {
+   "dni": "99195495",
+   "nombre": null,
+   "monto_reclamado": 1329.04,
+   "entidad": null,
+   "telefono": "999000145",
+   "correo": "cliente46@correo.demo",
+   "producto": null,
+   "fecha": "2026-08-12",
+   "motivo": null,
+   "ruc": "20997581921"
+  },
+  "3_pln": {
+   "dni": "99195495",
+   "nombre": "Rosa Quispe Lima",
+   "monto_reclamado": 1329.04,
+   "entidad": "Banco Cordillera DEMO S.A.",
+   "telefono": "999000145",
+   "correo": "cliente46@correo.demo",
+   "producto": "préstamo personal",
+   "fecha": "2026-08-12",
+   "motivo": null,
+   "ruc": "20997581921"
+  },
+  "4_llm": {
+   "dni": "99195495",
+   "nombre": "Rosa Quispe Lima",
+   "monto_reclamado": 1329.04,
+   "entidad": "Banco Cordillera DEMO S.A.",
+   "telefono": "999000145",
+   "correo": "cliente46@correo.demo",
+   "producto": "préstamo personal",
+   "fecha": "2026-08-12",
+   "motivo": "cobro indebido",
+   "ruc": "20997581921"
+  }
+ },
+ "texto": "Asunto: Reclamo REC-0046\nSoy Rosa Quispe Lima, DNI 99195495. Reclamo a Banco Cordillera DEMO S.A. (RUC 20997581921) por mi préstamo personal: cobro indebido.\nCargo del 12 de agosto de 2026 por S/ 1,329.04.\nTeléfono 999000145 | cliente46@correo.demo",
+ "ocr": {
+  "texto": "Asunto: Reclamo REC-0046\nSoy Rosa Quispe Lima, DNI 99195495. Reclamo a Banco Cordillera DEMO S.A. (RUC 20997581921) por mi préstamo personal: cobro indebido.\nCargo del 12 de agosto de 2026 por S/ 1,329.04.\nTeléfono 999000145 | cliente46@correo.demo",
+  "confianza": 0.96,
+  "puntaje": 0.94,
+  "decision": "aceptar"
+ },
+ "revisar": []
+}

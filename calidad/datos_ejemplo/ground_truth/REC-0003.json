@@ -1,0 +1,12 @@
+{
+ "dni": "99330062",
+ "nombre": "Carlos Díaz León",
+ "monto_reclamado": 1703.52,
+ "entidad": "Banco Cordillera DEMO S.A.",
+ "telefono": "999000720",
+ "correo": "cliente3@correo.demo",
+ "producto": "préstamo personal",
+ "fecha": "2026-03-04",
+ "motivo": "cobro indebido",
+ "ruc": "20998397872"
+}

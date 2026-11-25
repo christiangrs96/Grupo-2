@@ -1,0 +1,75 @@
+{
+ "archivo": "REC-0047.eml",
+ "tipo": "reclamo",
+ "estado": "ok",
+ "campos": {
+  "dni": "99804423",
+  "nombre": "Luis Paz Vera",
+  "monto_reclamado": 2052.78,
+  "entidad": "Caja Rural Sol DEMO S.A.",
+  "telefono": "999000830",
+  "correo": "cliente47@correo.demo",
+  "producto": "cuenta sueldo",
+  "fecha": "2026-06-10",
+  "motivo": "demora en entrega",
+  "ruc": "20995500320"
+ },
+ "fases": {
+  "1_ingesta": {
+   "dni": null,
+   "nombre": null,
+   "monto_reclamado": null,
+   "entidad": null,
+   "telefono": "999000830",
+   "correo": "cliente47@correo.demo",
+   "producto": null,
+   "fecha": null,
+   "motivo": null,
+   "ruc": null
+  },
+  "2_ocr": {
+   "dni": "99804423",
+   "nombre": null,
+   "monto_reclamado": 2052.78,
+   "entidad": null,
+   "telefono": "999000830",
+   "correo": "cliente47@correo.demo",
+   "producto": null,
+   "fecha": "2026-06-10",
+   "motivo": null,
+   "ruc": "20995500320"
+  },
+  "3_pln": {
+   "dni": "99804423",
+   "nombre": "Luis Paz Vera",
+   "monto_reclamado": 2052.78,
+   "entidad": "Caja Rural Sol DEMO S.A.",
+   "telefono": "999000830",
+   "correo": "cliente47@correo.demo",
+   "producto": "cuenta sueldo",
+   "fecha": "2026-06-10",
+   "motivo": null,
+   "ruc": "20995500320"
+  },
+  "4_llm": {
+   "dni": "99804423",
+   "nombre": "Luis Paz Vera",
+   "monto_reclamado": 2052.78,
+   "entidad": "Caja Rural Sol DEMO S.A.",
+   "telefono": "999000830",
+   "correo": "cliente47@correo.demo",
+   "producto": "cuenta sueldo",
+   "fecha": "2026-06-10",
+   "motivo": "demora en entrega",
+   "ruc": "20995500320"
+  }
+ },
+ "texto": "Asunto: Reclamo REC-0047\nSoy Luis Paz Vera, DNI 99804423. Reclamo a Caja Rural Sol DEMO S.A. (RUC 20995500320) por mi cuenta sueldo: demoro en entrega.\nCargo del 10 de junio de 2026 por S/ 2,052.78.\nTeléfono 999000830 | cliente47@correo.demo",
+ "ocr": {
+  "texto": "Asunto: Reclamo REC-0047\nSoy Luis Paz Vera, DNI 99804423. Reclamo a Caja Rural Sol DEMO S.A. (RUC 20995500320) por mi cuenta sueldo: demoro en entrega.\nCargo del 10 de junio de 2026 por S/ 2,052.78.\nTeléfono 999000830 | cliente47@correo.demo",
+  "confianza": 0.951,
+  "puntaje": 0.931,
+  "decision": "aceptar"
+ },
+ "revisar": []
+}

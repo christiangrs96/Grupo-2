@@ -1,0 +1,75 @@
+{
+ "archivo": "REC-0025.eml",
+ "tipo": "reclamo",
+ "estado": "ok",
+ "campos": {
+  "dni": "99872754",
+  "nombre": "Luis Paz Vera",
+  "monto_reclamado": 2255.62,
+  "entidad": "Caja Rural Sol DEMO S.A.",
+  "telefono": "999000113",
+  "correo": "cliente25@correo.demo",
+  "producto": "tarjeta de crédito",
+  "fecha": "2026-08-12",
+  "motivo": "cuenta cerrada",
+  "ruc": "20992594099"
+ },
+ "fases": {
+  "1_ingesta": {
+   "dni": null,
+   "nombre": null,
+   "monto_reclamado": null,
+   "entidad": null,
+   "telefono": "999000113",
+   "correo": "cliente25@correo.demo",
+   "producto": null,
+   "fecha": null,
+   "motivo": null,
+   "ruc": null
+  },
+  "2_ocr": {
+   "dni": "99872754",
+   "nombre": null,
+   "monto_reclamado": 2255.62,
+   "entidad": null,
+   "telefono": "999000113",
+   "correo": "cliente25@correo.demo",
+   "producto": null,
+   "fecha": "2026-08-12",
+   "motivo": null,
+   "ruc": "20992594099"
+  },
+  "3_pln": {
+   "dni": "99872754",
+   "nombre": "Luis Paz Vera",
+   "monto_reclamado": 2255.62,
+   "entidad": "Caja Rural Sol DEMO S.A.",
+   "telefono": "999000113",
+   "correo": "cliente25@correo.demo",
+   "producto": "tarjeta de crédito",
+   "fecha": "2026-08-12",
+   "motivo": null,
+   "ruc": "20992594099"
+  },
+  "4_llm": {
+   "dni": "99872754",
+   "nombre": "Luis Paz Vera",
+   "monto_reclamado": 2255.62,
+   "entidad": "Caja Rural Sol DEMO S.A.",
+   "telefono": "999000113",
+   "correo": "cliente25@correo.demo",
+   "producto": "tarjeta de crédito",
+   "fecha": "2026-08-12",
+   "motivo": "cuenta cerrada",
+   "ruc": "20992594099"
+  }
+ },
+ "texto": "Asunto: Reclamo REC-0025\nSoy Luis Paz Vera, DNI 99872754. Reclamo a Caja Rural Sol DEMO S.A. (RUC 20992594099) por mi tarjcta de crédito: cuenta cerrada.\nCargo dcl 12 de agosto de 2026 por S/ 2,255.62.\nTeléfono 999000113 | cliente25@correo.demo",
+ "ocr": {
+  "texto": "Asunto: Reclamo REC-0025\nSoy Luis Paz Vera, DNI 99872754. Reclamo a Caja Rural Sol DEMO S.A. (RUC 20992594099) por mi tarjcta de crédito: cuenta cerrada.\nCargo dcl 12 de agosto de 2026 por S/ 2,255.62.\nTeléfono 999000113 | cliente25@correo.demo",
+  "confianza": 0.935,
+  "puntaje": 0.915,
+  "decision": "aceptar"
+ },
+ "revisar": []
+}

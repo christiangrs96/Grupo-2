@@ -1,0 +1,75 @@
+{
+ "archivo": "REC-0027.eml",
+ "tipo": "reclamo",
+ "estado": "ok",
+ "campos": {
+  "dni": "99768463",
+  "nombre": "Elena Rojas Mesa",
+  "monto_reclamado": 41743.3,
+  "entidad": "Financiera Andina DEMO S.A.",
+  "telefono": "999000466",
+  "correo": "cliente27@correo.demo",
+  "producto": "cuenta sueldo",
+  "fecha": "2026-03-07",
+  "motivo": "cuenta cerrada",
+  "ruc": "20995337577"
+ },
+ "fases": {
+  "1_ingesta": {
+   "dni": null,
+   "nombre": null,
+   "monto_reclamado": null,
+   "entidad": null,
+   "telefono": "999000466",
+   "correo": "cliente27@correo.demo",
+   "producto": null,
+   "fecha": null,
+   "motivo": null,
+   "ruc": null
+  },
+  "2_ocr": {
+   "dni": "99768463",
+   "nombre": null,
+   "monto_reclamado": 41743.3,
+   "entidad": null,
+   "telefono": "999000466",
+   "correo": "cliente27@correo.demo",
+   "producto": null,
+   "fecha": "2026-03-07",
+   "motivo": null,
+   "ruc": "20995337577"
+  },
+  "3_pln": {
+   "dni": "99768463",
+   "nombre": "Elena Rojas Mesa",
+   "monto_reclamado": 41743.3,
+   "entidad": "Financiera Andina DEMO S.A.",
+   "telefono": "999000466",
+   "correo": "cliente27@correo.demo",
+   "producto": "cuenta sueldo",
+   "fecha": "2026-03-07",
+   "motivo": null,
+   "ruc": "20995337577"
+  },
+  "4_llm": {
+   "dni": "99768463",
+   "nombre": "Elena Rojas Mesa",
+   "monto_reclamado": 41743.3,
+   "entidad": "Financiera Andina DEMO S.A.",
+   "telefono": "999000466",
+   "correo": "cliente27@correo.demo",
+   "producto": "cuenta sueldo",
+   "fecha": "2026-03-07",
+   "motivo": "cuenta cerrada",
+   "ruc": "20995337577"
+  }
+ },
+ "texto": "Asunto: Reclamo REC-0027\nSoy Elena Rojas Mesa, DNI 99768463. Reclamo a Financiera Andina DEMO S.A. (RUC 20995337577) por mi cuenta sueldo: cuenta cerrada.\nCargo del 7 de marzo de 2026 por S/ 4,174.33.\nTeléfono 999000466 | cliente27@correo.demo",
+ "ocr": {
+  "texto": "Asunto: Reclamo REC-0027\nSoy Elena Rojas Mesa, DNI 99768463. Reclamo a Financiera Andina DEMO S.A. (RUC 20995337577) por mi cuenta sueldo: cuenta cerrada.\nCargo del 7 de marzo de 2026 por S/ 4,174.33.\nTeléfono 999000466 | cliente27@correo.demo",
+  "confianza": 0.922,
+  "puntaje": 0.902,
+  "decision": "aceptar"
+ },
+ "revisar": []
+}

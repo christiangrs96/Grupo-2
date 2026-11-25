@@ -1,0 +1,85 @@
+# Configuración del pipeline de calidad (sin rutas absolutas ni claves secretas).
+# Todas las rutas son relativas a la carpeta donde se ejecuta el comando.
+
+# ---------------------------------------------------------------------------
+# 1. ENTRADAS: lo que el equipo entrega al responsable de calidad
+# ---------------------------------------------------------------------------
+entradas:
+  # Resultados del pipeline: carpeta con un .json por documento, o un .json/.jsonl con la lista.
+  # Formato de cada documento: ver README, sección «Contrato de entrada».
+  resultados: datos_ejemplo/resultados
+
+  # Valores correctos: un .json por documento con el nombre del archivo sin extensión
+  # (igual que 02_Datos_Practica/10_Ground_Truth/ del curso).
+  ground_truth: datos_ejemplo/ground_truth
+
+  # Registro del lote (S06): tabla con archivo, estado y motivo. Acepta .duckdb (tabla «registro»),
+  # .parquet o .csv. corrida_2 es la misma salida después de repetir la corrida (prueba de idempotencia).
+  registro:
+    corrida_1: datos_ejemplo/registro_corrida_1.csv
+    corrida_2: datos_ejemplo/registro_corrida_2.csv   # vacío ("") si aún no se repitió la corrida
+
+  # Texto correcto de las páginas leídas con OCR, un .txt por documento (para el CER). Opcional: "".
+  ocr_referencia: datos_ejemplo/ocr_referencia
+
+# ---------------------------------------------------------------------------
+# 2. QUÉ SE MIDE
+# ---------------------------------------------------------------------------
+campos:
+  # Campos que se miden. Vacío = todos los que traiga el ground truth.
+  medir: []
+  # Campos clave: un error aquí tiene consecuencia directa (identifica a la persona o al monto).
+  criticos: [dni, ruc, monto_reclamado, fecha]
+  # Campos de clasificación: se miden con F1 macro y matriz de confusión (S04).
+  categoricos: [motivo]
+  # Tolerancia para comparar montos (en la unidad del monto).
+  tolerancia_monto: 0.01
+  # Campos que son montos o tasas (se comparan como número).
+  numericos: [monto_reclamado, monto, prima_anual, tea, tcea, total_activo]
+  # Campos que son fechas (se comparan en AAAA-MM-DD).
+  fechas: [fecha, fecha_contrato, fecha_emision]
+
+# Orden de las fases del pipeline (si los resultados traen «fases»). La exactitud debe subir en cada una.
+fases: [1_ingesta, 2_ocr, 3_pln, 4_llm]
+
+# ---------------------------------------------------------------------------
+# 3. UMBRALES: lo que el lote debe superar
+#    severidad «critico» bloquea la aprobación; «advertencia» aprueba con observaciones.
+#    Justificación de cada valor: README, sección «Umbrales y buenas prácticas».
+# ---------------------------------------------------------------------------
+umbrales:
+  # --- Control de entrada y trazabilidad (S06) ---
+  cobertura_registro:        {minimo: 1.00, severidad: critico}      # todo archivo con estado
+  cuarentena_con_motivo:     {minimo: 1.00, severidad: critico}      # nadie en cuarentena sin motivo
+  tasa_error_lote:           {maximo: 0.02, severidad: critico}      # archivos con estado «error»
+  idempotencia:              {requerido: true, severidad: critico}   # 2.ª corrida igual a la 1.ª
+
+  # --- Exactitud de la extracción (S04, S05) ---
+  f1_por_campo:              {minimo: 0.80, severidad: advertencia}  # umbral del curso
+  f1_campo_critico:          {minimo: 0.95, severidad: critico}
+  proporcion_campos_ok:      {minimo: 0.88, severidad: critico}      # 8 de 9 campos (rúbrica S04)
+  f1_global:                 {minimo: 0.90, severidad: critico}
+  precision_global:          {minimo: 0.95, severidad: critico}      # mejor vacío que inventado
+  exactitud_final:           {minimo: 0.90, severidad: advertencia}
+  exactitud_sube_por_fase:   {requerido: true, severidad: advertencia}
+  f1_macro_clasificacion:    {minimo: 0.80, severidad: advertencia}
+
+  # --- OCR (S03) ---
+  cer_medio:                 {maximo: 0.10, severidad: advertencia}
+  cer_documento:             {maximo: 0.20, severidad: advertencia}  # por encima, el documento va a revisar
+  puntaje_ocr_aceptar:       {minimo: 0.85}                          # mismo umbral_score del YAML de S03
+
+  # --- Validadores y evidencia (S03, S05) ---
+  tasa_validadores_ok:       {minimo: 0.98, severidad: critico}      # RUC, DNI, fecha, monto, moneda, TEA<TCEA
+  tasa_sin_evidencia:        {maximo: 0.02, severidad: advertencia}  # valores que no figuran en el texto
+  similitud_evidencia:       {minimo: 90}                            # rapidfuzz partial_ratio (0 a 100)
+
+  # --- Operación ---
+  tasa_revision_humana:      {maximo: 0.15, severidad: advertencia}  # documentos que pasan a «revisar»
+
+# ---------------------------------------------------------------------------
+# 4. SALIDA
+# ---------------------------------------------------------------------------
+salida:
+  carpeta: salidas_calidad
+  titulo: Reporte de calidad del lote

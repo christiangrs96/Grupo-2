@@ -1,0 +1,75 @@
+{
+ "archivo": "REC-0026.eml",
+ "tipo": "reclamo",
+ "estado": "ok",
+ "campos": {
+  "dni": "99581883",
+  "nombre": "Ana Ruiz Soto",
+  "monto_reclamado": 2701.95,
+  "entidad": "Financiera Andina DEMO S.A.",
+  "telefono": "999000701",
+  "correo": "cliente26@correo.demo",
+  "producto": "préstamo personal",
+  "fecha": "2026-06-10",
+  "motivo": "cobro indebido",
+  "ruc": "20996912281"
+ },
+ "fases": {
+  "1_ingesta": {
+   "dni": null,
+   "nombre": null,
+   "monto_reclamado": null,
+   "entidad": null,
+   "telefono": "999000701",
+   "correo": "cliente26@correo.demo",
+   "producto": null,
+   "fecha": null,
+   "motivo": null,
+   "ruc": null
+  },
+  "2_ocr": {
+   "dni": "99581883",
+   "nombre": null,
+   "monto_reclamado": 2701.95,
+   "entidad": null,
+   "telefono": "999000701",
+   "correo": "cliente26@correo.demo",
+   "producto": null,
+   "fecha": "2026-06-10",
+   "motivo": null,
+   "ruc": "20996912281"
+  },
+  "3_pln": {
+   "dni": "99581883",
+   "nombre": "Ana Ruiz Soto",
+   "monto_reclamado": 2701.95,
+   "entidad": "Financiera Andina DEMO S.A.",
+   "telefono": "999000701",
+   "correo": "cliente26@correo.demo",
+   "producto": "préstamo personal",
+   "fecha": "2026-06-10",
+   "motivo": null,
+   "ruc": "20996912281"
+  },
+  "4_llm": {
+   "dni": "99581883",
+   "nombre": "Ana Ruiz Soto",
+   "monto_reclamado": 2701.95,
+   "entidad": "Financiera Andina DEMO S.A.",
+   "telefono": "999000701",
+   "correo": "cliente26@correo.demo",
+   "producto": "préstamo personal",
+   "fecha": "2026-06-10",
+   "motivo": "cobro indebido",
+   "ruc": "20996912281"
+  }
+ },
+ "texto": "Asunto: Reclamo REC-0026\nSoy Ana Ruiz Soto, DNI 99581883. Reclamo a Financiera Andina DEMO S.A. (RUC 20996912281) por mi préstamo personal: cobro indebido.\nCargo del 10 de junio de 2026 por S/ 2,701.95.\nTeléfono 999000701 | cliente26@correo.demo",
+ "ocr": {
+  "texto": "Asunto: Reclamo REC-0026\nSoy Ana Ruiz Soto, DNI 99581883. Reclamo a Financiera Andina DEMO S.A. (RUC 20996912281) por mi préstamo personal: cobro indebido.\nCargo del 10 de junio de 2026 por S/ 2,701.95.\nTeléfono 999000701 | cliente26@correo.demo",
+  "confianza": 0.964,
+  "puntaje": 0.944,
+  "decision": "aceptar"
+ },
+ "revisar": []
+}

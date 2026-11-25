@@ -1,0 +1,9 @@
+pandas>=2.0
+pydantic>=2.0
+pyyaml
+rapidfuzz
+scikit-learn
+openpyxl
+duckdb
+pyarrow
+pytest

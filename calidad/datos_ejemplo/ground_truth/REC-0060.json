@@ -1,0 +1,12 @@
+{
+ "dni": "99897932",
+ "nombre": "Carlos Díaz León",
+ "monto_reclamado": 3457.84,
+ "entidad": "Financiera Andina DEMO S.A.",
+ "telefono": "999000512",
+ "correo": "cliente60@correo.demo",
+ "producto": "préstamo personal",
+ "fecha": "2026-04-19",
+ "motivo": "cobro indebido",
+ "ruc": "20991398016"
+}

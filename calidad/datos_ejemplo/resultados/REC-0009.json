@@ -1,0 +1,75 @@
+{
+ "archivo": "REC-0009.eml",
+ "tipo": "reclamo",
+ "estado": "ok",
+ "campos": {
+  "dni": "99605414",
+  "nombre": "Rosa Quispe Lima",
+  "monto_reclamado": 2273.99,
+  "entidad": "Financiera Andina DEMO S.A.",
+  "telefono": "999000886",
+  "correo": "cliente9@correo.demo",
+  "producto": "tarjeta de crédito",
+  "fecha": "2026-03-07",
+  "motivo": "cuenta cerrada",
+  "ruc": "20993882861"
+ },
+ "fases": {
+  "1_ingesta": {
+   "dni": null,
+   "nombre": null,
+   "monto_reclamado": null,
+   "entidad": null,
+   "telefono": "999000886",
+   "correo": "cliente9@correo.demo",
+   "producto": null,
+   "fecha": null,
+   "motivo": null,
+   "ruc": null
+  },
+  "2_ocr": {
+   "dni": "99605414",
+   "nombre": null,
+   "monto_reclamado": 2273.99,
+   "entidad": null,
+   "telefono": "999000886",
+   "correo": "cliente9@correo.demo",
+   "producto": null,
+   "fecha": "2026-03-07",
+   "motivo": null,
+   "ruc": "20993882861"
+  },
+  "3_pln": {
+   "dni": "99605414",
+   "nombre": "Rosa Quispe Lima",
+   "monto_reclamado": 2273.99,
+   "entidad": "Financiera Andina DEMO S.A.",
+   "telefono": "999000886",
+   "correo": "cliente9@correo.demo",
+   "producto": "tarjeta de crédito",
+   "fecha": "2026-03-07",
+   "motivo": null,
+   "ruc": "20993882861"
+  },
+  "4_llm": {
+   "dni": "99605414",
+   "nombre": "Rosa Quispe Lima",
+   "monto_reclamado": 2273.99,
+   "entidad": "Financiera Andina DEMO S.A.",
+   "telefono": "999000886",
+   "correo": "cliente9@correo.demo",
+   "producto": "tarjeta de crédito",
+   "fecha": "2026-03-07",
+   "motivo": "cuenta cerrada",
+   "ruc": "20993882861"
+  }
+ },
+ "texto": "Asunto: Reclamo REC-0009\nSoy Rosa Quispe Lima, DNI 99605414. Reclamo a Financiera Andina DEMO S.A. (RUC 20993882861) por mi tarjeta de crédito: cuenta cerrada.\nCargo del 7 de marzo de 2026 por S/ 2,273.99.\nTeléfono 999000886 | cliente9@correo.demo",
+ "ocr": {
+  "texto": "Asunto: Reclamo REC-0009\nSoy Rosa Quispe Lima, DNI 99605414. Reclamo a Financiera Andina DEMO S.A. (RUC 20993882861) por mi tarjeta de crédito: cuenta cerrada.\nCargo del 7 de marzo de 2026 por S/ 2,273.99.\nTeléfono 999000886 | cliente9@correo.demo",
+  "confianza": 0.964,
+  "puntaje": 0.944,
+  "decision": "aceptar"
+ },
+ "revisar": []
+}

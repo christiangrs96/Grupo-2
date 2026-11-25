@@ -1,0 +1,75 @@
+{
+ "archivo": "REC-0019.eml",
+ "tipo": "reclamo",
+ "estado": "ok",
+ "campos": {
+  "dni": "99445703",
+  "nombre": "Rosa Quispe Lima",
+  "monto_reclamado": 1363.0,
+  "entidad": "Banco Cordillera DEMO S.A.",
+  "telefono": "999000579",
+  "correo": "cliente19@correo.demo",
+  "producto": "préstamo personal",
+  "fecha": "2026-04-03",
+  "motivo": "demora en entrega",
+  "ruc": "20993192857"
+ },
+ "fases": {
+  "1_ingesta": {
+   "dni": null,
+   "nombre": null,
+   "monto_reclamado": null,
+   "entidad": null,
+   "telefono": "999000579",
+   "correo": "cliente19@correo.demo",
+   "producto": null,
+   "fecha": null,
+   "motivo": null,
+   "ruc": null
+  },
+  "2_ocr": {
+   "dni": "99445703",
+   "nombre": null,
+   "monto_reclamado": 1363.0,
+   "entidad": null,
+   "telefono": "999000579",
+   "correo": "cliente19@correo.demo",
+   "producto": null,
+   "fecha": "2026-04-03",
+   "motivo": null,
+   "ruc": "20993192857"
+  },
+  "3_pln": {
+   "dni": "99445703",
+   "nombre": "Rosa Quispe Lima",
+   "monto_reclamado": 1363.0,
+   "entidad": "Banco Cordillera DEMO S.A.",
+   "telefono": "999000579",
+   "correo": "cliente19@correo.demo",
+   "producto": "préstamo personal",
+   "fecha": "2026-04-03",
+   "motivo": null,
+   "ruc": "20993192857"
+  },
+  "4_llm": {
+   "dni": "99445703",
+   "nombre": "Rosa Quispe Lima",
+   "monto_reclamado": 1363.0,
+   "entidad": "Banco Cordillera DEMO S.A.",
+   "telefono": "999000579",
+   "correo": "cliente19@correo.demo",
+   "producto": "préstamo personal",
+   "fecha": "2026-04-03",
+   "motivo": "demora en entrega",
+   "ruc": "20993192857"
+  }
+ },
+ "texto": "Asunto: Reclamo REC-0019\nSoy Rosa Quispe Lima, DNI 99445703. Reclamo a Banco Cordillera DEMO S.A. (RUC 20993192857) por mi préstamo personal: demora en entrega.\nCargo del 3 de abril de 2026 por S/ 1,363.00.\nTeléfono 999000579 | cliente19@correo.demo",
+ "ocr": {
+  "texto": "Asunto: Reclamo REC-0019\nSoy Rosa Quispe Lima, DNI 99445703. Reclamo a Banco Cordillera DEMO S.A. (RUC 20993192857) por mi préstamo personal: demora en entrega.\nCargo del 3 de abril de 2026 por S/ 1,363.00.\nTeléfono 999000579 | cliente19@correo.demo",
+  "confianza": 0.944,
+  "puntaje": 0.924,
+  "decision": "aceptar"
+ },
+ "revisar": []
+}

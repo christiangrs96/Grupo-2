@@ -1,0 +1,75 @@
+{
+ "archivo": "REC-0016.eml",
+ "tipo": "reclamo",
+ "estado": "ok",
+ "campos": {
+  "dni": "99930862",
+  "nombre": "Carlos Díaz León",
+  "monto_reclamado": 3878.5,
+  "entidad": "Financiera Andina DEMO S.A.",
+  "telefono": "999000411",
+  "correo": "cliente16@correo.demo",
+  "producto": "tarjeta de crédito",
+  "fecha": "2026-01-22",
+  "motivo": "cuenta cerrada",
+  "ruc": "20992388626"
+ },
+ "fases": {
+  "1_ingesta": {
+   "dni": null,
+   "nombre": null,
+   "monto_reclamado": null,
+   "entidad": null,
+   "telefono": "999000411",
+   "correo": "cliente16@correo.demo",
+   "producto": null,
+   "fecha": null,
+   "motivo": null,
+   "ruc": null
+  },
+  "2_ocr": {
+   "dni": "99930862",
+   "nombre": null,
+   "monto_reclamado": 3878.5,
+   "entidad": null,
+   "telefono": "999000411",
+   "correo": "cliente16@correo.demo",
+   "producto": null,
+   "fecha": "2026-01-22",
+   "motivo": null,
+   "ruc": "20992388626"
+  },
+  "3_pln": {
+   "dni": "99930862",
+   "nombre": "Carlos Díaz León",
+   "monto_reclamado": 3878.5,
+   "entidad": "Financiera Andina DEMO S.A.",
+   "telefono": "999000411",
+   "correo": "cliente16@correo.demo",
+   "producto": "tarjeta de crédito",
+   "fecha": "2026-01-22",
+   "motivo": null,
+   "ruc": "20992388626"
+  },
+  "4_llm": {
+   "dni": "99930862",
+   "nombre": "Carlos Díaz León",
+   "monto_reclamado": 3878.5,
+   "entidad": "Financiera Andina DEMO S.A.",
+   "telefono": "999000411",
+   "correo": "cliente16@correo.demo",
+   "producto": "tarjeta de crédito",
+   "fecha": "2026-01-22",
+   "motivo": "cuenta cerrada",
+   "ruc": "20992388626"
+  }
+ },
+ "texto": "Asunto: Reclamo REC-0016\nSoy Carlos Díaz León, DNI 99930862. Reclamo a Financiera Andina DEMO S.A. (RUC 20992388626) por mi tarjeta de crédito: cuenta cerrada.\nCargo del 22 de enero de 2026 por S/ 3,878.50.\nTeléfono 999000411 | cliente16@correo.demo",
+ "ocr": {
+  "texto": "Asunto: Reclamo REC-0016\nSoy Carlos Díaz León, DNI 99930862. Reclamo a Financiera Andina DEMO S.A. (RUC 20992388626) por mi tarjeta de crédito: cuenta cerrada.\nCargo del 22 de enero de 2026 por S/ 3,878.50.\nTeléfono 999000411 | cliente16@correo.demo",
+  "confianza": 0.965,
+  "puntaje": 0.945,
+  "decision": "aceptar"
+ },
+ "revisar": []
+}

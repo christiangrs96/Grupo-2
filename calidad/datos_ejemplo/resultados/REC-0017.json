@@ -1,0 +1,75 @@
+{
+ "archivo": "REC-0017.eml",
+ "tipo": "reclamo",
+ "estado": "ok",
+ "campos": {
+  "dni": "99483508",
+  "nombre": "Luis Paz Vera",
+  "monto_reclamado": 693.48,
+  "entidad": "Financiera Andina DEMO S.A.",
+  "telefono": "999000343",
+  "correo": "cliente17@correo.demo",
+  "producto": "préstamo personal",
+  "fecha": "2026-03-10",
+  "motivo": "cuenta cerrada",
+  "ruc": "20994285221"
+ },
+ "fases": {
+  "1_ingesta": {
+   "dni": null,
+   "nombre": null,
+   "monto_reclamado": null,
+   "entidad": null,
+   "telefono": "999000343",
+   "correo": "cliente17@correo.demo",
+   "producto": null,
+   "fecha": null,
+   "motivo": null,
+   "ruc": null
+  },
+  "2_ocr": {
+   "dni": "99483508",
+   "nombre": null,
+   "monto_reclamado": 693.48,
+   "entidad": null,
+   "telefono": "999000343",
+   "correo": "cliente17@correo.demo",
+   "producto": null,
+   "fecha": "2026-03-10",
+   "motivo": null,
+   "ruc": "20994285221"
+  },
+  "3_pln": {
+   "dni": "99483508",
+   "nombre": "Luis Paz Vera",
+   "monto_reclamado": 693.48,
+   "entidad": "Financiera Andina DEMO S.A.",
+   "telefono": "999000343",
+   "correo": "cliente17@correo.demo",
+   "producto": "préstamo personal",
+   "fecha": "2026-03-10",
+   "motivo": null,
+   "ruc": "20994285221"
+  },
+  "4_llm": {
+   "dni": "99483508",
+   "nombre": "Luis Paz Vera",
+   "monto_reclamado": 693.48,
+   "entidad": "Financiera Andina DEMO S.A.",
+   "telefono": "999000343",
+   "correo": "cliente17@correo.demo",
+   "producto": "préstamo personal",
+   "fecha": "2026-03-10",
+   "motivo": "cuenta cerrada",
+   "ruc": "20994285221"
+  }
+ },
+ "texto": "Asunto: Reclamo REC-0017\nSoy Luis Paz Vera, DNI 99483508. Reclamo a Financiera Andina DEMO S.A. (RUC 20994285221) por mi préstamo personal: cuenta cerrada.\nCargo del 10 de marzo de 2026 por S/ 693.48.\nTeléfono 999000343 | cliente17@correo.demo",
+ "ocr": {
+  "texto": "Asunto: Reclamo REC-0017\nSoy Luis Paz Vera, DNI 99483508. Reclamo a Financiera Andina DEMO S.A. (RUC 20994285221) por mi préstamo personal: cuenta cerrada.\nCargo del 10 de marzo de 2026 por S/ 693.48.\nTeléfono 999000343 | cliente17@correo.demo",
+  "confianza": 0.972,
+  "puntaje": 0.952,
+  "decision": "aceptar"
+ },
+ "revisar": []
+}

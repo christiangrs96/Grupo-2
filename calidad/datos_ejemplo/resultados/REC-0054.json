@@ -1,0 +1,75 @@
+{
+ "archivo": "REC-0054.eml",
+ "tipo": "reclamo",
+ "estado": "ok",
+ "campos": {
+  "dni": "99992966",
+  "nombre": "Rosa Quispe Lima",
+  "monto_reclamado": 3746.49,
+  "entidad": "Caja Rural Sol DEMO S.A.",
+  "telefono": "999000277",
+  "correo": "cliente54@correo.demo",
+  "producto": "cuenta sueldo",
+  "fecha": "2026-06-16",
+  "motivo": "cobro indebido",
+  "ruc": "20996513948"
+ },
+ "fases": {
+  "1_ingesta": {
+   "dni": null,
+   "nombre": null,
+   "monto_reclamado": null,
+   "entidad": null,
+   "telefono": "999000277",
+   "correo": "cliente54@correo.demo",
+   "producto": null,
+   "fecha": null,
+   "motivo": null,
+   "ruc": null
+  },
+  "2_ocr": {
+   "dni": "99992966",
+   "nombre": null,
+   "monto_reclamado": 3746.49,
+   "entidad": null,
+   "telefono": "999000277",
+   "correo": "cliente54@correo.demo",
+   "producto": null,
+   "fecha": "2026-06-16",
+   "motivo": null,
+   "ruc": "20996513948"
+  },
+  "3_pln": {
+   "dni": "99992966",
+   "nombre": "Rosa Quispe Lima",
+   "monto_reclamado": 3746.49,
+   "entidad": "Caja Rural Sol DEMO S.A.",
+   "telefono": "999000277",
+   "correo": "cliente54@correo.demo",
+   "producto": "cuenta sueldo",
+   "fecha": "2026-06-16",
+   "motivo": null,
+   "ruc": "20996513948"
+  },
+  "4_llm": {
+   "dni": "99992966",
+   "nombre": "Rosa Quispe Lima",
+   "monto_reclamado": 3746.49,
+   "entidad": "Caja Rural Sol DEMO S.A.",
+   "telefono": "999000277",
+   "correo": "cliente54@correo.demo",
+   "producto": "cuenta sueldo",
+   "fecha": "2026-06-16",
+   "motivo": "cobro indebido",
+   "ruc": "20996513948"
+  }
+ },
+ "texto": "Asunto: Reclamo REC-0054\nSoy Roso Quispe Lima, DNI 99992966. Reclamo a Caja Rural Sol DEMO S.A. (RUC 2O996513948) por mi cuenta sueldo: cobro indebido.\nCargo del 16 de junio de 2026 por S/ 3,746.49.\nTeléfono 999000277 | cliente54@correo.demo",
+ "ocr": {
+  "texto": "Asunto: Reclamo REC-0054\nSoy Roso Quispe Lima, DNI 99992966. Reclamo a Caja Rural Sol DEMO S.A. (RUC 2O996513948) por mi cuenta sueldo: cobro indebido.\nCargo del 16 de junio de 2026 por S/ 3,746.49.\nTeléfono 999000277 | cliente54@correo.demo",
+  "confianza": 0.926,
+  "puntaje": 0.906,
+  "decision": "aceptar"
+ },
+ "revisar": []
+}

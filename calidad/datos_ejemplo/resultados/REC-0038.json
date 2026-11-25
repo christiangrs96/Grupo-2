@@ -1,0 +1,75 @@
+{
+ "archivo": "REC-0038.eml",
+ "tipo": "reclamo",
+ "estado": "ok",
+ "campos": {
+  "dni": "99604703",
+  "nombre": "Rosa Quispe Lima",
+  "monto_reclamado": 3067.19,
+  "entidad": "Banco Cordillera DEMO S.A.",
+  "telefono": "999000323",
+  "correo": "cliente38@correo.demo",
+  "producto": "préstamo personal",
+  "fecha": "2026-07-08",
+  "motivo": "cuenta cerrada",
+  "ruc": "20994178751"
+ },
+ "fases": {
+  "1_ingesta": {
+   "dni": null,
+   "nombre": null,
+   "monto_reclamado": null,
+   "entidad": null,
+   "telefono": "999000323",
+   "correo": "cliente38@correo.demo",
+   "producto": null,
+   "fecha": null,
+   "motivo": null,
+   "ruc": null
+  },
+  "2_ocr": {
+   "dni": "99604703",
+   "nombre": null,
+   "monto_reclamado": 3067.19,
+   "entidad": null,
+   "telefono": "999000323",
+   "correo": "cliente38@correo.demo",
+   "producto": null,
+   "fecha": "2026-07-08",
+   "motivo": null,
+   "ruc": "20994178751"
+  },
+  "3_pln": {
+   "dni": "99604703",
+   "nombre": "Rosa Quispe Lima",
+   "monto_reclamado": 3067.19,
+   "entidad": "Banco Cordillera DEMO S.A.",
+   "telefono": "999000323",
+   "correo": "cliente38@correo.demo",
+   "producto": "préstamo personal",
+   "fecha": "2026-07-08",
+   "motivo": null,
+   "ruc": "20994178751"
+  },
+  "4_llm": {
+   "dni": "99604703",
+   "nombre": "Rosa Quispe Lima",
+   "monto_reclamado": 3067.19,
+   "entidad": "Banco Cordillera DEMO S.A.",
+   "telefono": "999000323",
+   "correo": "cliente38@correo.demo",
+   "producto": "préstamo personal",
+   "fecha": "2026-07-08",
+   "motivo": "cuenta cerrada",
+   "ruc": "20994178751"
+  }
+ },
+ "texto": "Asunto: Reclamo REC-0038\nSoy Rosa Quispc Lima, DNI 99604703. Reclamo a Banco Cordillera DEMO S.A. (RUC 20994178751) por mi préstamo personal: cuenta cerrada.\nCargo del 8 de julio dc 2026 por S/ 3,067.19.\nTeléfono 999000323 | cliente38@correo.demo",
+ "ocr": {
+  "texto": "Asunto: Reclamo REC-0038\nSoy Rosa Quispc Lima, DNI 99604703. Reclamo a Banco Cordillera DEMO S.A. (RUC 20994178751) por mi préstamo personal: cuenta cerrada.\nCargo del 8 de julio dc 2026 por S/ 3,067.19.\nTeléfono 999000323 | cliente38@correo.demo",
+  "confianza": 0.922,
+  "puntaje": 0.902,
+  "decision": "aceptar"
+ },
+ "revisar": []
+}

@@ -1,0 +1,12 @@
+{
+ "dni": "99439839",
+ "nombre": "Rosa Quispe Lima",
+ "monto_reclamado": 3085.34,
+ "entidad": "Banco Cordillera DEMO S.A.",
+ "telefono": "999000460",
+ "correo": "cliente53@correo.demo",
+ "producto": "tarjeta de crédito",
+ "fecha": "2026-10-20",
+ "motivo": "cuenta cerrada",
+ "ruc": "20999701036"
+}

@@ -1,0 +1,75 @@
+{
+ "archivo": "REC-0050.eml",
+ "tipo": "reclamo",
+ "estado": "ok",
+ "campos": {
+  "dni": "99769413",
+  "nombre": "Elena Rojas Mesa",
+  "monto_reclamado": 4199.54,
+  "entidad": "Financiera Andina DEMO S.A.",
+  "telefono": "999000354",
+  "correo": "cliente50@correo.demo",
+  "producto": "préstamo personal",
+  "fecha": "2026-06-20",
+  "motivo": "cuenta cerrada",
+  "ruc": "20998971501"
+ },
+ "fases": {
+  "1_ingesta": {
+   "dni": null,
+   "nombre": null,
+   "monto_reclamado": null,
+   "entidad": null,
+   "telefono": "999000354",
+   "correo": "cliente50@correo.demo",
+   "producto": null,
+   "fecha": null,
+   "motivo": null,
+   "ruc": null
+  },
+  "2_ocr": {
+   "dni": "99769413",
+   "nombre": null,
+   "monto_reclamado": 4199.54,
+   "entidad": null,
+   "telefono": "999000354",
+   "correo": "cliente50@correo.demo",
+   "producto": null,
+   "fecha": "2026-06-20",
+   "motivo": null,
+   "ruc": "20998971501"
+  },
+  "3_pln": {
+   "dni": "99769413",
+   "nombre": "Elena Rojas Mesa",
+   "monto_reclamado": 4199.54,
+   "entidad": "Financiera Andina DEMO S.A.",
+   "telefono": "999000354",
+   "correo": "cliente50@correo.demo",
+   "producto": "préstamo personal",
+   "fecha": "2026-06-20",
+   "motivo": null,
+   "ruc": "20998971501"
+  },
+  "4_llm": {
+   "dni": "99769413",
+   "nombre": "Elena Rojas Mesa",
+   "monto_reclamado": 4199.54,
+   "entidad": "Financiera Andina DEMO S.A.",
+   "telefono": "999000354",
+   "correo": "cliente50@correo.demo",
+   "producto": "préstamo personal",
+   "fecha": "2026-06-20",
+   "motivo": "cuenta cerrada",
+   "ruc": "20998971501"
+  }
+ },
+ "texto": "Asunto: Reclamo REC-0050\nSoy Elena Rojas Mesa, DNI 99769413. Reclamo a Financiera Andina DEMO S.A. (RUC 20998971501) por mi préstamo personal: cuenta cerrada.\nCargo del 20 de junio de 2026 por S/ 4,199.54.\nTeléfono 999000354 | cliente50@correo.demo",
+ "ocr": {
+  "texto": "Asunto: Reclamo REC-0050\nSoy Elena Rojas Mesa, DNI 99769413. Reclamo a Financiera Andina DEMO S.A. (RUC 20998971501) por mi préstamo personal: cuenta cerrada.\nCargo del 20 de junio de 2026 por S/ 4,199.54.\nTeléfono 999000354 | cliente50@correo.demo",
+  "confianza": 0.953,
+  "puntaje": 0.933,
+  "decision": "aceptar"
+ },
+ "revisar": []
+}

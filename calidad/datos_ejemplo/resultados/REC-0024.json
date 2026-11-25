@@ -1,0 +1,75 @@
+{
+ "archivo": "REC-0024.eml",
+ "tipo": "reclamo",
+ "estado": "ok",
+ "campos": {
+  "dni": "99964539",
+  "nombre": "Ana Ruiz Soto",
+  "monto_reclamado": 234.79,
+  "entidad": "Caja Rural Sol DEMO S.A.",
+  "telefono": "999000830",
+  "correo": "cliente24@correo.demo",
+  "producto": "préstamo personal",
+  "fecha": "2026-09-05",
+  "motivo": "demora en entrega",
+  "ruc": "20991188551"
+ },
+ "fases": {
+  "1_ingesta": {
+   "dni": null,
+   "nombre": null,
+   "monto_reclamado": null,
+   "entidad": null,
+   "telefono": "999000830",
+   "correo": "cliente24@correo.demo",
+   "producto": null,
+   "fecha": null,
+   "motivo": null,
+   "ruc": null
+  },
+  "2_ocr": {
+   "dni": "99964539",
+   "nombre": null,
+   "monto_reclamado": 234.79,
+   "entidad": null,
+   "telefono": "999000830",
+   "correo": "cliente24@correo.demo",
+   "producto": null,
+   "fecha": "2026-09-05",
+   "motivo": null,
+   "ruc": "20991188551"
+  },
+  "3_pln": {
+   "dni": "99964539",
+   "nombre": "Ana Ruiz Soto",
+   "monto_reclamado": 234.79,
+   "entidad": "Caja Rural Sol DEMO S.A.",
+   "telefono": "999000830",
+   "correo": "cliente24@correo.demo",
+   "producto": "préstamo personal",
+   "fecha": "2026-09-05",
+   "motivo": null,
+   "ruc": "20991188551"
+  },
+  "4_llm": {
+   "dni": "99964539",
+   "nombre": "Ana Ruiz Soto",
+   "monto_reclamado": 234.79,
+   "entidad": "Caja Rural Sol DEMO S.A.",
+   "telefono": "999000830",
+   "correo": "cliente24@correo.demo",
+   "producto": "préstamo personal",
+   "fecha": "2026-09-05",
+   "motivo": "demora en entrega",
+   "ruc": "20991188551"
+  }
+ },
+ "texto": "Asunto: Reclamo REC-0024\nSoy Ana Ruiz Soto, DNI 99964539. Reclamo a Caja Rural Sol DEMO S.A. (RUC 20991188551) por mi préstamo personal: demora en entrega.\nCargo del 5 de septiembre de 2026 por S/ 234.79.\nTeléfono 999000830 | cliente24@correo.demo",
+ "ocr": {
+  "texto": "Asunto: Reclamo REC-0024\nSoy Ana Ruiz Soto, DNI 99964539. Reclamo a Caja Rural Sol DEMO S.A. (RUC 20991188551) por mi préstamo personal: demora en entrega.\nCargo del 5 de septiembre de 2026 por S/ 234.79.\nTeléfono 999000830 | cliente24@correo.demo",
+  "confianza": 0.944,
+  "puntaje": 0.924,
+  "decision": "aceptar"
+ },
+ "revisar": []
+}

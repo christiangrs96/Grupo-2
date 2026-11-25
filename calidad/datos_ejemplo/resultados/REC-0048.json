@@ -1,0 +1,75 @@
+{
+ "archivo": "REC-0048.eml",
+ "tipo": "reclamo",
+ "estado": "ok",
+ "campos": {
+  "dni": "99770364",
+  "nombre": "Elena Rojas Mesa",
+  "monto_reclamado": 1674.87,
+  "entidad": "Financiera Andina DEMO S.A.",
+  "telefono": "999000866",
+  "correo": "cliente48@correo.demo",
+  "producto": "préstamo personal",
+  "fecha": "2026-05-18",
+  "motivo": "demora en entrega",
+  "ruc": "20994904419"
+ },
+ "fases": {
+  "1_ingesta": {
+   "dni": null,
+   "nombre": null,
+   "monto_reclamado": null,
+   "entidad": null,
+   "telefono": "999000866",
+   "correo": "cliente48@correo.demo",
+   "producto": null,
+   "fecha": null,
+   "motivo": null,
+   "ruc": null
+  },
+  "2_ocr": {
+   "dni": "99770364",
+   "nombre": null,
+   "monto_reclamado": 1674.87,
+   "entidad": null,
+   "telefono": "999000866",
+   "correo": "cliente48@correo.demo",
+   "producto": null,
+   "fecha": "2026-05-18",
+   "motivo": null,
+   "ruc": "20994904419"
+  },
+  "3_pln": {
+   "dni": "99770364",
+   "nombre": "Elena Rojas Mesa",
+   "monto_reclamado": 1674.87,
+   "entidad": "Financiera Andina DEMO S.A.",
+   "telefono": "999000866",
+   "correo": "cliente48@correo.demo",
+   "producto": "préstamo personal",
+   "fecha": "2026-05-18",
+   "motivo": null,
+   "ruc": "20994904419"
+  },
+  "4_llm": {
+   "dni": "99770364",
+   "nombre": "Elena Rojas Mesa",
+   "monto_reclamado": 1674.87,
+   "entidad": "Financiera Andina DEMO S.A.",
+   "telefono": "999000866",
+   "correo": "cliente48@correo.demo",
+   "producto": "préstamo personal",
+   "fecha": "2026-05-18",
+   "motivo": "demora en entrega",
+   "ruc": "20994904419"
+  }
+ },
+ "texto": "Asunto: Reclamo REC-0048\nSoy Elena Rojas Mesa, DNI 99770364. Reclamo a Financiera Andina DEMO S.A. (RUC 20994904419) por mi préstamo personal: demora en entrega.\nCargo del 18 de mayo de 2026 por S/ 1,674.87.\nTeléfono 999000866 | cliente48@correo.demo",
+ "ocr": {
+  "texto": "Asunto: Reclamo REC-0048\nSoy Elena Rojas Mesa, DNI 99770364. Reclamo a Financiera Andina DEMO S.A. (RUC 20994904419) por mi préstamo personal: demora en entrega.\nCargo del 18 de mayo de 2026 por S/ 1,674.87.\nTeléfono 999000866 | cliente48@correo.demo",
+  "confianza": 0.933,
+  "puntaje": 0.913,
+  "decision": "aceptar"
+ },
+ "revisar": []
+}

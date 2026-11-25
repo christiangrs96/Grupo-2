@@ -1,0 +1,75 @@
+{
+ "archivo": "REC-0043.eml",
+ "tipo": "reclamo",
+ "estado": "ok",
+ "campos": {
+  "dni": "99677350",
+  "nombre": "Ana Ruiz Soto",
+  "monto_reclamado": 2645.38,
+  "entidad": "Caja Rural Sol DEMO S.A.",
+  "telefono": "999000770",
+  "correo": "cliente43@correo.demo",
+  "producto": "cuenta sueldo",
+  "fecha": "2026-05-13",
+  "motivo": "cuenta cerrada",
+  "ruc": "20997185987"
+ },
+ "fases": {
+  "1_ingesta": {
+   "dni": null,
+   "nombre": null,
+   "monto_reclamado": null,
+   "entidad": null,
+   "telefono": "999000770",
+   "correo": "cliente43@correo.demo",
+   "producto": null,
+   "fecha": null,
+   "motivo": null,
+   "ruc": null
+  },
+  "2_ocr": {
+   "dni": "99677350",
+   "nombre": null,
+   "monto_reclamado": 2645.38,
+   "entidad": null,
+   "telefono": "999000770",
+   "correo": "cliente43@correo.demo",
+   "producto": null,
+   "fecha": "2026-05-13",
+   "motivo": null,
+   "ruc": "20997185987"
+  },
+  "3_pln": {
+   "dni": "99677350",
+   "nombre": "Ana Ruiz Soto",
+   "monto_reclamado": 2645.38,
+   "entidad": "Caja Rural Sol DEMO S.A.",
+   "telefono": "999000770",
+   "correo": "cliente43@correo.demo",
+   "producto": "cuenta sueldo",
+   "fecha": "2026-05-13",
+   "motivo": null,
+   "ruc": "20997185987"
+  },
+  "4_llm": {
+   "dni": "99677350",
+   "nombre": "Ana Ruiz Soto",
+   "monto_reclamado": 2645.38,
+   "entidad": "Caja Rural Sol DEMO S.A.",
+   "telefono": "999000770",
+   "correo": "cliente43@correo.demo",
+   "producto": "cuenta sueldo",
+   "fecha": "2026-05-13",
+   "motivo": "cuenta cerrada",
+   "ruc": "20997185987"
+  }
+ },
+ "texto": "Asunto: Reclamo REC-0043\nSoy Ana Ruiz Soto, DNI 99677350. Reclamo a Caja Rural Sol DEMO S.A. (RUC 20997185987) por mi cuenta sueldo: cuenta cerrada.\nCargo del 13 de mayo de 2026 por S/ 2,645.38.\nTeléfono 99900O770 | cliente43@correo.demo",
+ "ocr": {
+  "texto": "Asunto: Reclamo REC-0043\nSoy Ana Ruiz Soto, DNI 99677350. Reclamo a Caja Rural Sol DEMO S.A. (RUC 20997185987) por mi cuenta sueldo: cuenta cerrada.\nCargo del 13 de mayo de 2026 por S/ 2,645.38.\nTeléfono 99900O770 | cliente43@correo.demo",
+  "confianza": 0.917,
+  "puntaje": 0.897,
+  "decision": "aceptar"
+ },
+ "revisar": []
+}

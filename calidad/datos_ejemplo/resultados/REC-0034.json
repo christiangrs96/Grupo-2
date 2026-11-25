@@ -1,0 +1,75 @@
+{
+ "archivo": "REC-0034.eml",
+ "tipo": "reclamo",
+ "estado": "ok",
+ "campos": {
+  "dni": "99271409",
+  "nombre": "Carlos Díaz León",
+  "monto_reclamado": 4828.47,
+  "entidad": "Financiera Andina DEMO S.A.",
+  "telefono": "999000762",
+  "correo": "cliente34@correo.demo",
+  "producto": "cuenta sueldo",
+  "fecha": "2026-03-09",
+  "motivo": "demora en entrega",
+  "ruc": "20996885683"
+ },
+ "fases": {
+  "1_ingesta": {
+   "dni": null,
+   "nombre": null,
+   "monto_reclamado": null,
+   "entidad": null,
+   "telefono": "999000762",
+   "correo": "cliente34@correo.demo",
+   "producto": null,
+   "fecha": null,
+   "motivo": null,
+   "ruc": null
+  },
+  "2_ocr": {
+   "dni": "99271409",
+   "nombre": null,
+   "monto_reclamado": 4828.47,
+   "entidad": null,
+   "telefono": "999000762",
+   "correo": "cliente34@correo.demo",
+   "producto": null,
+   "fecha": "2026-03-09",
+   "motivo": null,
+   "ruc": "20996885683"
+  },
+  "3_pln": {
+   "dni": "99271409",
+   "nombre": "Carlos Díaz León",
+   "monto_reclamado": 4828.47,
+   "entidad": "Financiera Andina DEMO S.A.",
+   "telefono": "999000762",
+   "correo": "cliente34@correo.demo",
+   "producto": "cuenta sueldo",
+   "fecha": "2026-03-09",
+   "motivo": null,
+   "ruc": "20996885683"
+  },
+  "4_llm": {
+   "dni": "99271409",
+   "nombre": "Carlos Díaz León",
+   "monto_reclamado": 4828.47,
+   "entidad": "Financiera Andina DEMO S.A.",
+   "telefono": "999000762",
+   "correo": "cliente34@correo.demo",
+   "producto": "cuenta sueldo",
+   "fecha": "2026-03-09",
+   "motivo": "demora en entrega",
+   "ruc": "20996885683"
+  }
+ },
+ "texto": "Asunto: Reclamo REC-0034\nSoy Carlos Díaz León, DNI 99271409. Reclamo a Financiera Andina DEMO S.A. (RUC 20996885683) por mi cuenta sueldo: demora en entrega.\nCargo del 9 de marzo de 2026 por S/ 4,828.47.\nTeléfono 999000762 | cliente34@correo.demo",
+ "ocr": {
+  "texto": "Asunto: Reclamo REC-0034\nSoy Carlos Díaz León, DNI 99271409. Reclamo a Financiera Andina DEMO S.A. (RUC 20996885683) por mi cuenta sueldo: demora en entrega.\nCargo del 9 de marzo de 2026 por S/ 4,828.47.\nTeléfono 999000762 | cliente34@correo.demo",
+  "confianza": 0.967,
+  "puntaje": 0.947,
+  "decision": "aceptar"
+ },
+ "revisar": []
+}

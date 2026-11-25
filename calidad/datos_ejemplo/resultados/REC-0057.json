@@ -1,0 +1,75 @@
+{
+ "archivo": "REC-0057.eml",
+ "tipo": "reclamo",
+ "estado": "ok",
+ "campos": {
+  "dni": "99303259",
+  "nombre": "Luis Paz Vera",
+  "monto_reclamado": 687.58,
+  "entidad": "Banco Cordillera DEMO S.A.",
+  "telefono": "999000470",
+  "correo": "cliente57@correo.demo",
+  "producto": "cuenta sueldo",
+  "fecha": "2026-02-22",
+  "motivo": "cuenta cerrada",
+  "ruc": "20994850734"
+ },
+ "fases": {
+  "1_ingesta": {
+   "dni": null,
+   "nombre": null,
+   "monto_reclamado": null,
+   "entidad": null,
+   "telefono": "999000470",
+   "correo": "cliente57@correo.demo",
+   "producto": null,
+   "fecha": null,
+   "motivo": null,
+   "ruc": null
+  },
+  "2_ocr": {
+   "dni": "99303259",
+   "nombre": null,
+   "monto_reclamado": 687.58,
+   "entidad": null,
+   "telefono": "999000470",
+   "correo": "cliente57@correo.demo",
+   "producto": null,
+   "fecha": "2026-02-22",
+   "motivo": null,
+   "ruc": "20994850734"
+  },
+  "3_pln": {
+   "dni": "99303259",
+   "nombre": "Luis Paz Vera",
+   "monto_reclamado": 687.58,
+   "entidad": "Banco Cordillera DEMO S.A.",
+   "telefono": "999000470",
+   "correo": "cliente57@correo.demo",
+   "producto": "cuenta sueldo",
+   "fecha": "2026-02-22",
+   "motivo": null,
+   "ruc": "20994850734"
+  },
+  "4_llm": {
+   "dni": "99303259",
+   "nombre": "Luis Paz Vera",
+   "monto_reclamado": 687.58,
+   "entidad": "Banco Cordillera DEMO S.A.",
+   "telefono": "999000470",
+   "correo": "cliente57@correo.demo",
+   "producto": "cuenta sueldo",
+   "fecha": "2026-02-22",
+   "motivo": "cuenta cerrada",
+   "ruc": "20994850734"
+  }
+ },
+ "texto": "Asunto: Reclamo REC-0057\nSoy Luis Paz Vera, DNI 99303259. Reclamo a Banco Cordillera DEMO S.A. (RUC 20994850734) por mi cuenta sueldo: cuenta cerrada.\nCargo del 22 de febrero de 2026 por S/ 687.58.\nTeléfono 999000470 | cliente57@correo.demo",
+ "ocr": {
+  "texto": "Asunto: Reclamo REC-0057\nSoy Luis Paz Vera, DNI 99303259. Reclamo a Banco Cordillera DEMO S.A. (RUC 20994850734) por mi cuenta sueldo: cuenta cerrada.\nCargo del 22 de febrero de 2026 por S/ 687.58.\nTeléfono 999000470 | cliente57@correo.demo",
+  "confianza": 0.952,
+  "puntaje": 0.932,
+  "decision": "aceptar"
+ },
+ "revisar": []
+}

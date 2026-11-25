@@ -1,0 +1,12 @@
+{
+ "dni": "99282767",
+ "nombre": "Luis Paz Vera",
+ "monto_reclamado": 2949.62,
+ "entidad": "Financiera Andina DEMO S.A.",
+ "telefono": "999000500",
+ "correo": "cliente42@correo.demo",
+ "producto": "tarjeta de crédito",
+ "fecha": "2026-04-09",
+ "motivo": "cobro indebido",
+ "ruc": "20995933137"
+}

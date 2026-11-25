@@ -1,0 +1,12 @@
+{
+ "dni": "99636685",
+ "nombre": "Ana Ruiz Soto",
+ "monto_reclamado": 2552.38,
+ "entidad": "Banco Cordillera DEMO S.A.",
+ "telefono": "999000715",
+ "correo": "cliente1@correo.demo",
+ "producto": "préstamo personal",
+ "fecha": "2026-06-04",
+ "motivo": "cuenta cerrada",
+ "ruc": "20995410461"
+}

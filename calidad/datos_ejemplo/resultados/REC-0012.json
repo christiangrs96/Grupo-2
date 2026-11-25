@@ -1,0 +1,75 @@
+{
+ "archivo": "REC-0012.eml",
+ "tipo": "reclamo",
+ "estado": "ok",
+ "campos": {
+  "dni": "99445801",
+  "nombre": "Luis Paz Vera",
+  "monto_reclamado": 2909.52,
+  "entidad": "Caja Rural Sol DEMO S.A.",
+  "telefono": "999000557",
+  "correo": "cliente12@correo.demo",
+  "producto": "cuenta sueldo",
+  "fecha": "2026-05-12",
+  "motivo": "cuenta cerrada",
+  "ruc": "20996147241"
+ },
+ "fases": {
+  "1_ingesta": {
+   "dni": null,
+   "nombre": null,
+   "monto_reclamado": null,
+   "entidad": null,
+   "telefono": "999000557",
+   "correo": "cliente12@correo.demo",
+   "producto": null,
+   "fecha": null,
+   "motivo": null,
+   "ruc": null
+  },
+  "2_ocr": {
+   "dni": "99445801",
+   "nombre": null,
+   "monto_reclamado": 2909.52,
+   "entidad": null,
+   "telefono": "999000557",
+   "correo": "cliente12@correo.demo",
+   "producto": null,
+   "fecha": "2026-05-12",
+   "motivo": null,
+   "ruc": "20996147241"
+  },
+  "3_pln": {
+   "dni": "99445801",
+   "nombre": "Luis Paz Vera",
+   "monto_reclamado": 2909.52,
+   "entidad": "Caja Rural Sol DEMO S.A.",
+   "telefono": "999000557",
+   "correo": "cliente12@correo.demo",
+   "producto": "cuenta sueldo",
+   "fecha": "2026-05-12",
+   "motivo": null,
+   "ruc": "20996147241"
+  },
+  "4_llm": {
+   "dni": "99445801",
+   "nombre": "Luis Paz Vera",
+   "monto_reclamado": 2909.52,
+   "entidad": "Caja Rural Sol DEMO S.A.",
+   "telefono": "999000557",
+   "correo": "cliente12@correo.demo",
+   "producto": "cuenta sueldo",
+   "fecha": "2026-05-12",
+   "motivo": "cuenta cerrada",
+   "ruc": "20996147241"
+  }
+ },
+ "texto": "Asunto: Reclamo REC-0012\nSoy Luis Paz Vera, DNI 99445801. Reclamo a Caja Rural Sol DEMO S.A. (RUC 20996147241) por mi cuenta sueldo: cobro indebido.\nCargo del 12 de mayo de 2026 por S/ 2,909.52.\nTeléfono 999000557 | cliente12@correo.derno",
+ "ocr": {
+  "texto": "Asunto: Reclamo REC-0012\nSoy Luis Paz Vera, DNI 99445801. Reclamo a Caja Rural Sol DEMO S.A. (RUC 20996147241) por mi cuenta sueldo: cobro indebido.\nCargo del 12 de mayo de 2026 por S/ 2,909.52.\nTeléfono 999000557 | cliente12@correo.derno",
+  "confianza": 0.925,
+  "puntaje": 0.905,
+  "decision": "aceptar"
+ },
+ "revisar": []
+}

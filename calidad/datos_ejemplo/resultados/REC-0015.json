@@ -1,0 +1,75 @@
+{
+ "archivo": "REC-0015.eml",
+ "tipo": "reclamo",
+ "estado": "ok",
+ "campos": {
+  "dni": "99918559",
+  "nombre": "Luis Paz Vera",
+  "monto_reclamado": 939.08,
+  "entidad": "Financiera Andina DEMO S.A.",
+  "telefono": "999000327",
+  "correo": "cliente15@correo.demo",
+  "producto": "tarjeta de crédito",
+  "fecha": "2026-04-17",
+  "motivo": "cuenta cerrada",
+  "ruc": "20998296791"
+ },
+ "fases": {
+  "1_ingesta": {
+   "dni": null,
+   "nombre": null,
+   "monto_reclamado": null,
+   "entidad": null,
+   "telefono": "999000327",
+   "correo": "cliente15@correo.demo",
+   "producto": null,
+   "fecha": null,
+   "motivo": null,
+   "ruc": null
+  },
+  "2_ocr": {
+   "dni": "99918559",
+   "nombre": null,
+   "monto_reclamado": 939.08,
+   "entidad": null,
+   "telefono": "999000327",
+   "correo": "cliente15@correo.demo",
+   "producto": null,
+   "fecha": "2026-04-17",
+   "motivo": null,
+   "ruc": "20998296791"
+  },
+  "3_pln": {
+   "dni": "99918559",
+   "nombre": "Luis Paz Vera",
+   "monto_reclamado": 939.08,
+   "entidad": "Financiera Andina DEMO S.A.",
+   "telefono": "999000327",
+   "correo": "cliente15@correo.demo",
+   "producto": "tarjeta de crédito",
+   "fecha": "2026-04-17",
+   "motivo": null,
+   "ruc": "20998296791"
+  },
+  "4_llm": {
+   "dni": "99918559",
+   "nombre": "Luis Paz Vera",
+   "monto_reclamado": 939.08,
+   "entidad": "Financiera Andina DEMO S.A.",
+   "telefono": "999000327",
+   "correo": "cliente15@correo.demo",
+   "producto": "tarjeta de crédito",
+   "fecha": "2026-04-17",
+   "motivo": "cuenta cerrada",
+   "ruc": "20998296791"
+  }
+ },
+ "texto": "Asunto: Reclamo REC-0015\nSoy Luis Paz Vera, DNI 99918559. Reclamo a Financiera Andina DEMO S.A. (RUC 20998296791) por mi tarjeta de crédito: cuenta cerrada.\nCargo del 17 de abril de 2026 por S/ 939.08.\nTeléfono 999000327 | cliente15@correo.demo",
+ "ocr": {
+  "texto": "Asunto: Reclamo REC-0015\nSoy Luis Paz Vera, DNI 99918559. Reclamo a Financiera Andina DEMO S.A. (RUC 20998296791) por mi tarjeta de crédito: cuenta cerrada.\nCargo del 17 de abril de 2026 por S/ 939.08.\nTeléfono 999000327 | cliente15@correo.demo",
+  "confianza": 0.923,
+  "puntaje": 0.903,
+  "decision": "aceptar"
+ },
+ "revisar": []
+}
