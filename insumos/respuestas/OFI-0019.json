@@ -1,0 +1,16 @@
+{
+ "doc_id": "OFI-0019",
+ "tipo": "oficio",
+ "campos": {
+  "numero_oficio": "0027-2026-ID/DRO",
+  "fecha": "2026-02-08",
+  "entidad": "Caja Rural Valle Verde DEMO S.A.",
+  "ruc": "20996964281",
+  "asunto": "Requerimiento de informacion sobre contratos de credito de consumo",
+  "referencia": "Carta N° 199-2026 de Caja Rural Valle Verde DEMO S.A.",
+  "plazo_dias": 10,
+  "emisor": "Intendencia DEMO de Supervision Financiera",
+  "firmante": "Milagros Sandoval Ccori",
+  "cargo": "Intendente DEMO Adjunto"
+ }
+}

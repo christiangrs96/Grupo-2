@@ -1,0 +1,16 @@
+{
+ "doc_id": "OFI-0020",
+ "tipo": "oficio",
+ "campos": {
+  "numero_oficio": "0587-2026-ID/DCM",
+  "fecha": "2026-01-22",
+  "entidad": "Banco Costa Norte DEMO S.A.",
+  "ruc": "20991892070",
+  "asunto": "Requerimiento de informacion sobre contratos de credito de consumo",
+  "referencia": "Carta N° 161-2026 de Banco Costa Norte DEMO S.A.",
+  "plazo_dias": 15,
+  "emisor": "Intendencia DEMO de Riesgos Operacionales",
+  "firmante": "Milagros Valdivia Peralta",
+  "cargo": "Jefe de Equipo DEMO"
+ }
+}

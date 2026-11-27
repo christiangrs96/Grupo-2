@@ -1,0 +1,16 @@
+{
+ "doc_id": "OFI-0008",
+ "tipo": "oficio",
+ "campos": {
+  "numero_oficio": "0839-2026-ID/DCM",
+  "fecha": "2026-03-06",
+  "entidad": "Caja Rural Valle Verde DEMO S.A.",
+  "ruc": "20996964281",
+  "asunto": "Requerimiento de informe sobre incidentes de seguridad de la informacion",
+  "referencia": "Carta N° 023-2026 de Caja Rural Valle Verde DEMO S.A.",
+  "plazo_dias": 10,
+  "emisor": "Intendencia DEMO de Riesgos Operacionales",
+  "firmante": "Andres Olivera Ibarra",
+  "cargo": "Intendente DEMO"
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "doc_id": "OFI-0004",
+ "tipo": "oficio",
+ "campos": {
+  "numero_oficio": "0388-2026-ID/DCM",
+  "fecha": "2026-05-11",
+  "entidad": "Banco Cordillera DEMO S.A.",
+  "ruc": "20997531206",
+  "asunto": "Requerimiento de informe sobre incidentes de seguridad de la informacion",
+  "referencia": "Carta N° 113-2026 de Banco Cordillera DEMO S.A.",
+  "plazo_dias": 5,
+  "emisor": "Intendencia DEMO de Conducta de Mercado",
+  "firmante": "Victor Zevallos Ponce",
+  "cargo": "Jefe de Equipo DEMO"
+ }
+}

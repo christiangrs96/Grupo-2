@@ -1,0 +1,3 @@
+# Git no cambia los saltos de línea de ningún archivo: los PDF, los correos y las respuestas viajan byte a byte.
+# Sin esta línea, Git para Windows puede convertir los saltos de línea de un PDF al clonar y el PDF llega dañado.
+* -text

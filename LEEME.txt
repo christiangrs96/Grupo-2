@@ -1,0 +1,32 @@
+﻿PIPELINE DEL EQUIPO - EXTRACCIÓN DOCUMENTAL
+===========================================
+
+Este repositorio reúne en un solo pipeline lo que cada integrante construyó en las sesiones anteriores.
+Se clona y se corre con un comando sobre los documentos del flujo del equipo, sin instalar nada nuevo.
+
+QUÉ CONTIENE
+  LEEME.txt                Este archivo.
+  .gitignore               Lo que Git no guarda: cachés, bases de datos, respaldos y claves.
+  .gitattributes           Git no cambia los saltos de línea: los PDF y los correos llegan intactos al clonar.
+  insumos/documentos/      Los 20 documentos ficticios del flujo del equipo (solo se leen).
+  insumos/respuestas/      La respuesta correcta de cada documento (un <ID>.json por documento).
+  mi_pipeline/             El paquete del equipo. Cada función trae sus carpetas:
+                             integración    __init__.py, __main__.py, pipeline.py, orquestacion/, config/
+                                            y pyproject.toml (junto a mi_pipeline/)
+                             extracción     ingesta/, ocr/, extraccion/, clasificacion/, llm/
+                             calidad        calidad/ y tests/
+                             documentación  almacenamiento/, monitoreo/ y documentacion/ACTA_EQUIPO.docx
+  resultados/              Lo que produce la corrida: un JSON por documento (json/), exactitud por campo,
+                           lista de revisión humana, reporte y registro.
+
+CÓMO SE CORRE (PowerShell o terminal de JupyterLab, desde esta carpeta)
+  python -m pytest mi_pipeline/tests -q
+  python -m mi_pipeline --entrada insumos/documentos --salida resultados
+  python -m mi_pipeline.calidad.exactitud_equipo --salida resultados --respuestas insumos/respuestas
+
+QUÉ NO SE SUBE
+  Bases de datos (*.duckdb), la carpeta parquet, la cuarentena, los respaldos, las claves (.env),
+  los modelos y cualquier documento interno o con datos personales reales.
+
+La versión entregada lleva la etiqueta v1.0-equipo.
+Los documentos son ficticios. No se suben a servicios de IA en la nube.

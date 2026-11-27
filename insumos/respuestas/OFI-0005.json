@@ -1,0 +1,16 @@
+{
+ "doc_id": "OFI-0005",
+ "tipo": "oficio",
+ "campos": {
+  "numero_oficio": "0796-2026-ID/DSF",
+  "fecha": "2026-09-20",
+  "entidad": "Banco Andino DEMO S.A.",
+  "ruc": "20996256821",
+  "asunto": "Solicitud de aclaraciones sobre el estado financiero trimestral",
+  "referencia": "Carta N° 088-2026 de Banco Andino DEMO S.A.",
+  "plazo_dias": 7,
+  "emisor": "Intendencia DEMO de Conducta de Mercado",
+  "firmante": "Paola Vargas Flores",
+  "cargo": "Intendente DEMO"
+ }
+}

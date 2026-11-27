@@ -1,0 +1,16 @@
+{
+ "doc_id": "OFI-0006",
+ "tipo": "oficio",
+ "campos": {
+  "numero_oficio": "0417-2026-ID/DRO",
+  "fecha": "2026-01-23",
+  "entidad": "Aseguradora Nueva Aurora DEMO S.A.",
+  "ruc": "20992371634",
+  "asunto": "Requerimiento de informe sobre incidentes de seguridad de la informacion",
+  "referencia": "Carta N° 023-2026 de Aseguradora Nueva Aurora DEMO S.A.",
+  "plazo_dias": 7,
+  "emisor": "Intendencia DEMO de Conducta de Mercado",
+  "firmante": "Alvaro Bravo Escobar",
+  "cargo": "Jefe de Equipo DEMO"
+ }
+}

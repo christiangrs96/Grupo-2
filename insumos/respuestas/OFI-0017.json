@@ -1,0 +1,16 @@
+{
+ "doc_id": "OFI-0017",
+ "tipo": "oficio",
+ "campos": {
+  "numero_oficio": "0485-2026-ID/DCM",
+  "fecha": "2026-09-30",
+  "entidad": "Financiera Pampa Azul DEMO S.A.",
+  "ruc": "20997462352",
+  "asunto": "Solicitud de documentacion de respaldo de reclamos atendidos en el segundo trimestre",
+  "referencia": "Carta N° 397-2026 de Financiera Pampa Azul DEMO S.A.",
+  "plazo_dias": 10,
+  "emisor": "Intendencia DEMO de Conducta de Mercado",
+  "firmante": "Oscar Olivera Fuentes",
+  "cargo": "Jefe de Equipo DEMO"
+ }
+}

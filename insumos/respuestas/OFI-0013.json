@@ -1,0 +1,16 @@
+{
+ "doc_id": "OFI-0013",
+ "tipo": "oficio",
+ "campos": {
+  "numero_oficio": "0083-2026-ID/DSF",
+  "fecha": "2026-06-10",
+  "entidad": "Financiera Altiplano DEMO S.A.",
+  "ruc": "20990944050",
+  "asunto": "Solicitud de plan de accion para el cierre de observaciones de la visita de inspeccion",
+  "referencia": "Carta N° 081-2026 de Financiera Altiplano DEMO S.A.",
+  "plazo_dias": 7,
+  "emisor": "Intendencia DEMO de Riesgos Operacionales",
+  "firmante": "Hugo Flores Zevallos",
+  "cargo": "Intendente DEMO"
+ }
+}

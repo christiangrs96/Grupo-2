@@ -1,0 +1,16 @@
+{
+ "doc_id": "OFI-0014",
+ "tipo": "oficio",
+ "campos": {
+  "numero_oficio": "0711-2026-ID/DCM",
+  "fecha": "2026-07-10",
+  "entidad": "Seguros Vicuna DEMO S.A.",
+  "ruc": "20995524318",
+  "asunto": "Requerimiento de informacion sobre la cartera de creditos al 30 de junio de 2026",
+  "referencia": "Carta N° 336-2026 de Seguros Vicuna DEMO S.A.",
+  "plazo_dias": 5,
+  "emisor": "Intendencia DEMO de Conducta de Mercado",
+  "firmante": "Miguel Bravo Herrera",
+  "cargo": "Intendente DEMO"
+ }
+}

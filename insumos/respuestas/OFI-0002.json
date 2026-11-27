@@ -1,0 +1,16 @@
+{
+ "doc_id": "OFI-0002",
+ "tipo": "oficio",
+ "campos": {
+  "numero_oficio": "0955-2026-ID/DSF",
+  "fecha": "2026-03-18",
+  "entidad": "Seguros Vicuna DEMO S.A.",
+  "ruc": "20995524318",
+  "asunto": "Remision de reportes de tasas de interes y comisiones vigentes",
+  "referencia": "Carta N° 099-2026 de Seguros Vicuna DEMO S.A.",
+  "plazo_dias": 7,
+  "emisor": "Intendencia DEMO de Riesgos Operacionales",
+  "firmante": "Paola Palacios Rojas",
+  "cargo": "Intendente DEMO"
+ }
+}

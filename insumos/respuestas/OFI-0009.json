@@ -1,0 +1,16 @@
+{
+ "doc_id": "OFI-0009",
+ "tipo": "oficio",
+ "campos": {
+  "numero_oficio": "0845-2026-ID/DCM",
+  "fecha": "2026-09-14",
+  "entidad": "Caja Rural Valle Verde DEMO S.A.",
+  "ruc": "20996964281",
+  "asunto": "Requerimiento de informacion sobre contratos de credito de consumo",
+  "referencia": "Carta N° 274-2026 de Caja Rural Valle Verde DEMO S.A.",
+  "plazo_dias": 15,
+  "emisor": "Intendencia DEMO de Conducta de Mercado",
+  "firmante": "Carlos Ortega Herrera",
+  "cargo": "Jefe de Equipo DEMO"
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "doc_id": "OFI-0016",
+ "tipo": "oficio",
+ "campos": {
+  "numero_oficio": "0615-2026-ID/DRO",
+  "fecha": "2026-03-13",
+  "entidad": "Seguros Vicuna DEMO S.A.",
+  "ruc": "20995524318",
+  "asunto": "Remision de reportes de tasas de interes y comisiones vigentes",
+  "referencia": "Carta N° 216-2026 de Seguros Vicuna DEMO S.A.",
+  "plazo_dias": 10,
+  "emisor": "Intendencia DEMO de Riesgos Operacionales",
+  "firmante": "Milagros Mendoza Flores",
+  "cargo": "Jefe de Equipo DEMO"
+ }
+}

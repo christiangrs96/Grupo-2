@@ -1,0 +1,16 @@
+{
+ "doc_id": "OFI-0001",
+ "tipo": "oficio",
+ "campos": {
+  "numero_oficio": "0230-2026-ID/DSF",
+  "fecha": "2026-06-24",
+  "entidad": "Aseguradora Nueva Aurora DEMO S.A.",
+  "ruc": "20992371634",
+  "asunto": "Solicitud de plan de accion para el cierre de observaciones de la visita de inspeccion",
+  "referencia": "Carta N° 012-2026 de Aseguradora Nueva Aurora DEMO S.A.",
+  "plazo_dias": 15,
+  "emisor": "Intendencia DEMO de Riesgos Operacionales",
+  "firmante": "Raul Sandoval Mendoza",
+  "cargo": "Jefe de Equipo DEMO"
+ }
+}

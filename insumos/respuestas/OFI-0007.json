@@ -1,0 +1,16 @@
+{
+ "doc_id": "OFI-0007",
+ "tipo": "oficio",
+ "campos": {
+  "numero_oficio": "0070-2026-ID/DCM",
+  "fecha": "2026-05-13",
+  "entidad": "Seguros Vicuna DEMO S.A.",
+  "ruc": "20995524318",
+  "asunto": "Requerimiento de informacion sobre polizas colectivas emitidas en el semestre",
+  "referencia": "Carta N° 333-2026 de Seguros Vicuna DEMO S.A.",
+  "plazo_dias": 7,
+  "emisor": "Intendencia DEMO de Conducta de Mercado",
+  "firmante": "Milagros Medina Lazo",
+  "cargo": "Jefe de Equipo DEMO"
+ }
+}
